@@ -1,9 +1,11 @@
 ---
 author:
 created: 2026-10-05T09:33:17+08:00
-modified: 2026-10-07T16:11:09+08:00
+modified: 2026-10-07T16:41:07+08:00
 ---
 # Home
+
+This is a local prototype, not approved team documentation. Open it as an Obsidian vault or follow the Markdown links on GitHub.
 
 ## Projects
 

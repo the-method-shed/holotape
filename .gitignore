@@ -3,9 +3,6 @@
 !.obsidian/core-plugins.json
 !.obsidian/templates.json
 
-# Unreviewed source export; import only after review
-notion/
-
 # Local secrets and OS files
 .env
 .env.*

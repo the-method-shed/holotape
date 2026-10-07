@@ -10,7 +10,7 @@ urls: []
 ---
 # Inbox
 
-Capture unfilled material here. Nothing in this folder is automatically approved for the handbook. Review provenance, sensitivity, and destination before integrating it elsewhere.
+Capture unfilled material here. Nothing in this folder is automatically approved for inclusion in the team wiki. Review provenance, sensitivity, and destination before integrating it elsewhere.
 
 This page describes the folder; it is not an inbox item. The view lists the 10 newest inbox items by file creation time.
 

@@ -2,7 +2,7 @@
 modified: 2026-10-07T16:07:40+08:00
 created: 2026-10-05T09:33:39+08:00
 ---
-# Team handbook prototype — agent instructions
+# Team wiki prototype — agent instructions
 
 ## Purpose and status
 

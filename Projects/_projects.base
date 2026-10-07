@@ -8,10 +8,10 @@ views:
     name: All projects
     order:
       - file.name
-      - stage
+      - status
       - priority
       - leads
     columnSize:
       file.name: 129
-      note.stage: 132
+      note.status: 132
       note.priority: 151

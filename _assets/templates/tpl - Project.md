@@ -9,7 +9,7 @@ modified:
 leads: []
 team: []
 priority:
-stage: proposed
+status: proposed
 tags: []
 urls: []
 ---
@@ -17,7 +17,7 @@ urls: []
 
 > **Draft template:** Replace placeholders and obtain review before presenting this page as current team knowledge.
 >
-> **Project stage:** Set `stage` to `proposed` (default), `planning`, `ready`, `active`, or `complete`. Use `paused` while work is on hold, then replace it with the appropriate stage when work resumes.
+> **Project status:** Set `status` to `proposed` (default), `planning`, `ready`, `active`, or `complete`. Use `paused` while work is on hold, then replace it with the appropriate status when work resumes.
 
 ## Purpose and outcome
 
@@ -28,7 +28,7 @@ urls: []
 - Repository: [link]
 - Issues: [link]
 
-Do not duplicate issue assignments or issue status here. The `stage` property describes the project as a whole.
+Do not duplicate issue assignments or issue status here. The project `status` property describes the project as a whole.
 
 ## Open actions
 

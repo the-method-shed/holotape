@@ -15,7 +15,7 @@ This is a **proposed navigation guide**, not approved team policy. Map links and
 
 ## When to use a tag
 
-- Use a tag for a useful cross-folder or cross-map view, not merely to repeat a folder name or a property. Keep project lifecycle in `stage`, not tags.
+- Use a tag for a useful cross-folder or cross-map view, not merely to repeat a folder name or a property. Keep project lifecycle in the `status` property, not tags.
 - Prefer a short hierarchy with `/` separators and add a new branch only when several real pages need it. Obsidian's [nested tags](https://help.obsidian.md/tags#Nested%20tags) are searchable by parent; keep `tags` as a YAML list.
 - Link a useful page from a map even when it has a tag. Tags do not replace plain Markdown navigation on GitHub.
 
@@ -29,4 +29,4 @@ The earlier `map` tag on Areas has been replaced by `type/map` to make room for 
 
 - `on/<theme>` — for a subject that crosses several projects or maps and needs a shared navigation path. Choose a real theme with the team before adding a specific tag; don't pre-create a topic tree.
 
-Do not add `type/project` or `type/person` just to restate the `Projects/` or `Notes/People/` folder, or `stage/*` to duplicate the project `stage` property.
+Do not add `type/project` or `type/person` just to restate the `Projects/` or `Notes/People/` folder, or `status/*` to duplicate the project `status` property.

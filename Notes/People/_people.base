@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.name.startsWith("@")
+        - file.folder == "Notes/People"
+    order:
+      - file.name
+      - role
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 222

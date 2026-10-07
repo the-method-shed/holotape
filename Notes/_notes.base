@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.folder == "Notes"
+    - file.ext == "md"
+    - file.path != "Notes/_notes.md"
+views:
+  - type: table
+    name: Recent notes
+    order:
+      - file.name
+      - file.ctime
+    sort:
+      - property: file.ctime
+        direction: DESC
+    limit: 10

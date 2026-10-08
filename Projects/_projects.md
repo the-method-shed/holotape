@@ -5,7 +5,7 @@ aliases:
   - Projects
 author:
 created: 2026-10-05T09:33:17+08:00
-modified: 2026-10-08T11:16:29+08:00
+modified: 2026-10-08T11:20:22+08:00
 tags:
   - type/map
 urls: []
@@ -36,7 +36,7 @@ Tasks across all projects, with no due date or due in the next two weeks.
 
 ```tasks
 not done
-due before in 14 days
+(no due date) OR (due on or before in 14 days)
 group by due
 sort by due
 ```

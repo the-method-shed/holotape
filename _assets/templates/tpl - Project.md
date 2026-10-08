@@ -10,7 +10,8 @@ leads: []
 team: []
 priority:
 status: proposed
-tags: []
+tags:
+  - project
 urls: []
 ---
 # Project - [Project name]

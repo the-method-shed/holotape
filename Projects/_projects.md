@@ -5,7 +5,7 @@ aliases:
   - Projects
 author:
 created: 2026-10-05T09:33:17+08:00
-modified: 2026-10-08T10:49:00+08:00
+modified: 2026-10-08T11:05:56+08:00
 tags:
   - type/map
 urls: []
@@ -29,3 +29,6 @@ The Obsidian view below lists project pages, including paused and completed ones
 ![[_projects.base]]
 
 On GitHub, [browse this folder](./) to see its files.
+
+## Open tasks
+

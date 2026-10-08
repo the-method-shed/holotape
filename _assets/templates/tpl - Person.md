@@ -6,7 +6,8 @@ author:
 created:
 modified:
 role:
-tags: []
+tags:
+  - person
 urls: []
 ---
 # @[Name]

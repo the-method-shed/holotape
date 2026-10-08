@@ -5,7 +5,7 @@ aliases:
   - Projects
 author:
 created: 2026-10-05T09:33:17+08:00
-modified: 2026-10-08T11:05:56+08:00
+modified: 2026-10-08T11:12:26+08:00
 tags:
   - type/map
 urls: []
@@ -32,3 +32,11 @@ On GitHub, [browse this folder](./) to see its files.
 
 ## Open tasks
 
+*Tasks due in the next 7 days across all pro*
+
+```tasks
+not done
+due before in 7 days
+group by due
+sort by due
+```

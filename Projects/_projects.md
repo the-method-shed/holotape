@@ -5,18 +5,26 @@ aliases:
   - Projects
 author:
 created: 2026-10-05T09:33:17+08:00
-modified: 2026-10-08T08:24:31+08:00
+modified: 2026-10-08T10:49:00+08:00
 tags:
   - type/map
 urls: []
 ---
 # Projects
 
-Efforts with a defined outcome belong here, including paused and completed projects. Each project page is a map: why the work exists, relevant knowledge, a dated project log, and links to the repository and issues where implementation work is tracked. Keep only non-issue coordination follow-ups in its open-actions list.
+Come here when you need to understand an effort with a defined outcome, including paused or completed work. Each project page brings together its purpose, relevant knowledge, dated developments, and links to the repository and issues where implementation work is tracked.
 
-Start from the [project template](../_assets/templates/tpl%20-%20Project.md) when ready to add one. Name each project file `Project - Project name.md` and use `# Project - Project name` as its heading. See the [draft metadata conventions](../Notes/Metadata%20conventions.md) for project status values and people links.
+## Find your next step
 
-All project pages appear below in Obsidian, including paused and completed projects.
+1. Find the project below. Open its **Purpose and outcome** to see what it is for, then **Context and knowledge** and **Project log** for the background and what has happened.
+2. Use **Where to act** to find the repository and issues. Checkboxes under **Open actions** are coordination follow-ups, not a live view of GitHub issues. Some existing pages contain imported, unverified Notion snapshots; check their source before acting on them.
+3. If you learn something worth keeping beyond the immediate work, link it from the project to a reviewed note or relevant map. Keep the source with substantive claims and mark proposals as such.
+
+## Add a project
+
+If an effort needs its own entry page, start from the [project template](../_assets/templates/tpl%20-%20Project.md). Name the file `Project - Project name.md` and use `# Project - Project name` as its heading. Link it from a relevant map or parent project. See the [draft metadata conventions](../Notes/Metadata%20conventions.md) for project status values and people links. Keep only non-issue coordination follow-ups in its open-actions list; track implementation work in GitHub issues.
+
+The Obsidian view below lists project pages, including paused and completed ones. It does not list their checkboxes.
 
 ![[_projects.base]]
 

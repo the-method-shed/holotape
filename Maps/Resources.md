@@ -4,14 +4,16 @@ related: []
 aliases: []
 author:
 created: 2026-10-05
-modified: 2026-10-07T11:39:54+08:00
+modified: 2026-10-08T10:49:00+08:00
 tags:
   - type/map
 urls: []
 ---
 # Resources
 
-A map of reusable reference material and methods. Link to durable notes in `Notes/` or relevant external sources once reviewed; project-specific work belongs on a project page.
+Come here for a source, method, or reference that may be useful across projects. Follow links to reviewed [notes](../Notes/_notes.md) or external sources; project-specific context belongs on a [project page](../Projects/_projects.md).
+
+Found something useful? Capture its link or citation and why it matters in the [+ inbox](../+/_inbox.md) first. After provenance, rights, sensitivity, and destination have been reviewed, link the source or a durable note from here when it has cross-project value. A separate source catalogue is not required to start collecting references.
 
 ## Prototype guidance
 

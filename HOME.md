@@ -1,31 +1,26 @@
 ---
-modified: 2026-10-08T10:18:31+08:00
+modified: 2026-10-08T10:49:36+08:00
 created: 2026-10-05T09:33:17+08:00
 ---
 # Home
 
 This is a local prototype, not approved team documentation. Open it as an Obsidian vault or follow the Markdown links on GitHub.
 
-## Projects
+## Where do you want to start?
 
-- [Projects](Projects/_projects.md) — all project entry pages.
+- **Work on something:** Open [Projects](Projects/_projects.md) to find the project, understand its purpose and context, and follow its links to the repository and issues where implementation work happens.
+- **Explore a question:** Start with [Areas](Maps/Areas.md) for ongoing responsibilities or [Resources](Maps/Resources.md) for reusable references. Follow links into [Notes](Notes/_notes.md) and project pages; a note can connect more than one project.
+- **Capture something unfinished:** Put an idea, source link, or clipping in the [+ inbox](+/_inbox.md) with where it came from and why it may matter. It stays unreviewed until its provenance, sensitivity, and destination are checked with a human.
 
-## Explore
+## Find your way back
 
-- [Areas](Maps/Areas.md) — ongoing responsibilities.
-- [Resources](Maps/Resources.md) — reusable knowledge and references.
-- [People](Maps/People.md) — minimal profiles for project references.
-- [Tags](Maps/Tags.md) — draft tag guidance and current tag index.
-- [Notes](Notes/_notes.md) — durable notes linked from the maps and projects.
+- [People](Maps/People.md) links the minimal profiles used by project pages.
+- [Tags](Maps/Tags.md) describes the draft tag guidance; map links remain the main routes through the wiki.
+- [Archive](Archive/_archive.md) holds inactive material where moving it will not break external links.
 
-## Capture and history
+## From capture to shared context
 
-- [+](+/_inbox.md) — inbox, unfilled material awaiting review.
-- [Archive](Archive/_archive.md) — inactive material, with external link stability in mind.
-
-## How this will work
-
-Use project pages for context and links to the relevant GitHub repositories and issues, not copies of task state. Link to sources for substantive claims. Have a human approve decisions and standards before presenting them as team policy.
+When material is ready for review, connect it to the relevant project or map, or make a durable note and link it from there. Attribute substantive claims to their sources and keep proposals distinct from agreed decisions. This is a local prototype, not approved team documentation; only a human can approve team decisions or standards. Project pages give context and may hold non-issue follow-ups, but GitHub issues own implementation task state.
 
 ## License
 

@@ -5,7 +5,7 @@ aliases: []
 description: Reconstructing Jawi newspaper articles from OCR fragments
 author:
 created: 2026-10-08T09:21:55+08:00
-modified: 2026-10-08T09:27:35+08:00
+modified: 2026-10-08T11:32:36+08:00
 leads: []
 team: []
 priority: 2
@@ -35,7 +35,7 @@ Develop and evaluate a pipeline to reconstruct newspaper articles from OCR text 
 
 *Keep action items visible and updated with the most recent at the top. Move the completed actions into the completed section. Create separate tasks when relevant. Record Who, What, By when, Task (as applicable).*
 
-- [ ]  *@who, [what](, by [date])*
+- [ ] [Who] — [What] (by [date, if agreed])
 - [ ]  @alvin will run the pipeline for 1956 in the Schmidt cluster
 - [ ]  @Miguel Varela to compile new dataset with additional pages
 - [ ]  ❓@all, How to organize all repos, ongoing

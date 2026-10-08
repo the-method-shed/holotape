@@ -37,7 +37,7 @@ urls: []
 
 *Lightweight coordination follow-ups without a GitHub issue belong here. For repository work, create or link an issue instead. Record who, what, and a due date only if one has been agreed; move completed follow-ups into the dated log below.*
 
-- \[ \] [Who] — [What] (by [date, if agreed])
+- [ ] [Who] — [What] (by [date, if agreed])
 
 ## Context and knowledge
 

@@ -1,10 +1,11 @@
 ---
 up: "[[HOME]]"
 related: []
-aliases: []
+aliases:
+  - Archive
 author:
 created: 2026-10-05
-modified: 2026-10-07T15:23:52+08:00
+modified: 2026-10-08T08:24:44+08:00
 tags: []
 urls: []
 ---

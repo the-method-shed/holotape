@@ -1,7 +1,7 @@
 ---
 author:
 created: 2026-10-05T09:33:17+08:00
-modified: 2026-10-07T16:41:07+08:00
+modified: 2026-10-08T09:45:31+08:00
 ---
 # Home
 
@@ -27,3 +27,7 @@ This is a local prototype, not approved team documentation. Open it as an Obsidi
 ## How this will work
 
 Use project pages for context and links to the relevant GitHub repositories and issues, not copies of task state. Link to sources for substantive claims. Have a human approve decisions and standards before presenting them as team policy.
+
+## License
+
+Selected original wiki writing and templates are available under [CC BY 4.0](LICENSE.md). Imported material, project pages based on external sources, and attachments are excluded pending a rights and sensitivity review; see the [license scope](LICENSE.md).

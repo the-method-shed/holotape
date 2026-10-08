@@ -1,11 +1,13 @@
 ---
 up: "[[HOME]]"
 related: []
-aliases: []
+aliases:
+  - Notes
 author:
 created: 2026-10-05
-modified: 2026-10-07T11:40:40+08:00
-tags: []
+modified: 2026-10-08T08:24:39+08:00
+tags:
+  - type/map
 urls: []
 ---
 # Notes

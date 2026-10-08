@@ -4,7 +4,7 @@ related: []
 aliases: []
 author:
 created: 2026-10-07
-modified: 2026-10-07T11:40:35+08:00
+modified: 2026-10-08T08:07:19+08:00
 tags: []
 urls: []
 ---
@@ -13,7 +13,7 @@ urls: []
 Proposed conventions for this local prototype, based on the owner's requested fields and the frontmatter pattern in their personal reference vault. These are **not approved team policy**.
 
 - All content pages and templates: `up` (first property where there is a parent map or entry page), `aliases` (list), `author` (person reference when confirmed), `created` and `modified` (timestamps maintained by Obsidian; see below), `urls` (list of external URLs), `related` (list of relevant vault pages), and `tags` (list, empty unless a tag has a specific purpose). See the [draft tags guide](../Maps/Tags.md) for the current vocabulary; map links remain primary. Empty fields mean *unknown or not yet set*, not a verified absence. Do not infer authors or roles.
-- Projects also have `priority` (1–5, project-level), `leads` (list of people, including for one lead), `team` (list of people), and a single `status` property rather than a stage folder or tag. The priority scale's direction has not yet been agreed; leave priority empty until it is.
+- Projects also have `priority` (1–5, project-level), `leads` (list of people, including for one lead), `team` (list of people), and a single `status` property rather than a stage folder or tag. `priority` describes current relative urgency across projects: **5 is most urgent, 1 is least urgent**. Leave it empty if not yet assessed, and update it as priorities change.
 - Project status values: `proposed`, `planning`, `ready`, `active`, `complete`; use `paused` when work is on hold. This describes a project containing many GitHub issues, not the state of individual issues. Keep issue tasks and assignments in GitHub. The project page may hold lightweight follow-ups without an issue (who, what, agreed due date) and a dated record of developments; log completed follow-ups, but link to GitHub issues rather than copying their task state.
 - People pages live in `Notes/People/`, are named `@Name.md`, linked from [People](../Maps/People.md), and may have a confirmed professional `role`. No personal HR or private contact information.
 - Obsidian properties can reference people and notes using quoted wikilinks, e.g. `leads: ["[[Notes/People/@Person 1]]"]`, `related: ["[[Areas]]"]`, or `up: "[[HOME]]"`. GitHub does not make these links clickable: retain relative Markdown links in the body for cross-page references and use maps as entry points. `up` replaces the former inline parent links; GitHub readers must use the maps or browser navigation to go back.

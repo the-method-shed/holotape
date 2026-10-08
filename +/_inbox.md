@@ -1,10 +1,11 @@
 ---
 up: "[[HOME]]"
 related: []
-aliases: []
+aliases:
+  - Inbox
 author:
 created: 2026-10-05T09:33:39+08:00
-modified: 2026-10-07T16:24:45+08:00
+modified: 2026-10-08T08:24:53+08:00
 tags: []
 urls: []
 ---

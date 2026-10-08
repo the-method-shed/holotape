@@ -11,7 +11,10 @@ views:
       - status
       - priority
       - leads
+    sort:
+      - property: priority
+        direction: DESC
     columnSize:
-      file.name: 129
+      file.name: 265
       note.status: 132
       note.priority: 151

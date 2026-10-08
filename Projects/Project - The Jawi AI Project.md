@@ -1,36 +1,33 @@
 ---
 up: "[[Projects/_projects|Projects]]"
-related: []
+related:
+  - "[[Project - Dataset management]]"
 aliases: []
-description:
+description: AI tools for Malay-language historical sources
 author:
-created:
-modified:
+created: 2026-10-07T17:01:30+08:00
+modified: 2026-10-08T09:31:38+08:00
 leads: []
 team: []
-priority:
-status: proposed
+priority: 3
+status: active
 tags: []
-urls: []
+urls:
+  - https://jawi.budaya.sg/
 ---
-# Project - [Project name]
-
-> **Draft template:** Replace placeholders and obtain review before presenting this page as current team knowledge.
->
-> **Project status:** Set `status` to `proposed` (default), `planning`, `ready`, `active`, or `complete`. Use `paused` while work is on hold, then replace it with the appropriate status when work resumes.
->
-> **Project priority:** Set `priority` to 1–5 for current relative urgency across projects: **5 is most urgent, 1 is least urgent**. Leave it empty if not yet assessed, and update it as priorities change.
+# Project - The Jawi AI Project
 
 ## Purpose and outcome
 
-[What is this project trying to achieve? How will we know it is done?]
+To work on AI tools for Malay-language historical sources, initially focusing on Jawi-script newspapers. Its stated goal is to make these sources easier to transliterate, search, and study. [Source: project website](https://jawi.budaya.sg/#about).
 
 ## Where to act
 
 *Do not duplicate issue assignments or issue status here. The project `status` property describes the project as a whole.*
 
-- Repository: [link]
-- Issues: [link]
+- Website: [jawi.budaya.sg](https://jawi.budaya.sg/)
+- Repository: not yet confirmed; the site links to a [GitHub organization](https://github.com/Computational-Cultural-Heritage-NUS), not a specific repository.
+- Issues: not yet confirmed.
 
 ## Open actions
 
@@ -40,13 +37,13 @@ urls: []
 
 ## Context and knowledge
 
-[Links to the lead and team people pages, relevant notes, areas, resources, and source material. Separate verified facts from hypotheses. Use relative Markdown links in the body so they work on GitHub.]
+- Background and stated approach: [About the Jawi AI Project](https://jawi.budaya.sg/#about).
 
-> [!info]- Child projects
+> [!info]+ Child projects
 > ```base
 > views:
 >   - type: table
->     name: Child projects
+>     name: Children projects
 >     filters:
 >       and:
 >         - file.hasProperty("up")
@@ -63,15 +60,12 @@ urls: []
 >       note.status: 193
 >     indentProperties: true
 > ```
-
 ## Decisions
 
-[Link to reviewed decisions, including who agreed and when. Mark open questions as open.]
+_None recorded on this page yet._
 
 ## Project log
 
 *Record dated developments and completed follow-ups, newest first. Link to sources and GitHub issues rather than copying issue updates; distinguish proposals from agreed decisions.*
 
-### [YYYY-MM-DD]
-
-[What happened, who was involved, and what remains open.]
+_No dated entries recorded on this page yet._

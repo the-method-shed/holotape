@@ -12,4 +12,4 @@ views:
       - property: file.name
         direction: ASC
     columnSize:
-      file.name: 222
+      file.name: 197

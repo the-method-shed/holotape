@@ -5,7 +5,7 @@ aliases: []
 description: Reconstructing Jawi newspaper articles from OCR fragments
 author:
 created: 2026-10-08T09:21:55+08:00
-modified: 2026-10-08T11:32:36+08:00
+modified: 2026-10-08T17:21:00+08:00
 leads: []
 team: []
 priority: 2
@@ -31,29 +31,29 @@ Develop and evaluate a pipeline to reconstruct newspaper articles from OCR text 
 
 ## Open actions
 
-> **Notion snapshot:** These checkboxes reproduce the export; verify their current state in GitHub before using them as follow-ups.
+> **Edited Notion snapshot:** Task names below have been replaced with linked people placeholders; other task wording comes from the export. Check the source and verify current state in GitHub before using these as follow-ups.
 
 *Keep action items visible and updated with the most recent at the top. Move the completed actions into the completed section. Create separate tasks when relevant. Record Who, What, By when, Task (as applicable).*
 
 - [ ] [Who] — [What] (by [date, if agreed])
-- [ ]  @alvin will run the pipeline for 1956 in the Schmidt cluster
-- [ ]  @Miguel Varela to compile new dataset with additional pages
+- [ ]  [@Person 2](../Notes/People/@Person%202.md) will run the pipeline for 1956 in the Schmidt cluster
+- [ ]  [@Person 3](../Notes/People/@Person%203.md) to compile new dataset with additional pages
 - [ ]  ❓@all, How to organize all repos, ongoing
 - Completed
-    - [x]  @Zé Miguel Vieira calculate agreement (only region ids), and process, [new dataset](https://github.com/culturalheritagenus/ds_article_20260902/)
-    - [x]  @Zé Miguel Vieira to change the prompt for article titles to be in Malay.
-    - [x]  @Zé Miguel Vieira to change the implementation to use Transformers
-    - [x]  @Zé Miguel Vieira and @alvin to explore optimisations for batch inference
-    - [x]  @Zé Miguel Vieira adapt newspaper reconstructor module to implement the interface ``Module[ArticleReconstructionInput, ArticleReconstructionOutput]``
-    - [x]  @Zé Miguel Vieira to share inference time per model (and hardware specs)
-    - [x]  @Zé Miguel Vieira to finish benchmarking by 28 August 2026
-    - [x]  @Miguel Varela prompts for Jose, by 24 August 2026
-    - [x]  @Miguel Varela give @Zé Miguel Vieira HuggingFace access
-    - [x]  @Miguel Varela to review ground truth data
-    - [x]  @Zé Miguel Vieira share updated newspaper reconstructor repository
-    - [x]  @Zé Miguel Vieira add ARI
+    - [x]  [@Person 1](../Notes/People/@Person%201.md) calculate agreement (only region ids), and process, [new dataset](https://github.com/culturalheritagenus/ds_article_20260902/)
+    - [x]  [@Person 1](../Notes/People/@Person%201.md) to change the prompt for article titles to be in Malay.
+    - [x]  [@Person 1](../Notes/People/@Person%201.md) to change the implementation to use Transformers
+    - [x]  [@Person 1](../Notes/People/@Person%201.md) and [@Person 2](../Notes/People/@Person%202.md) to explore optimisations for batch inference
+    - [x]  [@Person 1](../Notes/People/@Person%201.md) adapt newspaper reconstructor module to implement the interface ``Module[ArticleReconstructionInput, ArticleReconstructionOutput]``
+    - [x]  [@Person 1](../Notes/People/@Person%201.md) to share inference time per model (and hardware specs)
+    - [x]  [@Person 1](../Notes/People/@Person%201.md) to finish benchmarking by 28 August 2026
+    - [x]  [@Person 3](../Notes/People/@Person%203.md) prompts for [@Person 1](../Notes/People/@Person%201.md), by 24 August 2026
+    - [x]  [@Person 3](../Notes/People/@Person%203.md) give [@Person 1](../Notes/People/@Person%201.md) HuggingFace access
+    - [x]  [@Person 3](../Notes/People/@Person%203.md) to review ground truth data
+    - [x]  [@Person 1](../Notes/People/@Person%201.md) share updated newspaper reconstructor repository
+    - [x]  [@Person 1](../Notes/People/@Person%201.md) add ARI
     - [x]  Generate format compatible with article-network-visualizer
-    - [x]  Yash to complete handover
+    - [x]  [@Person 4](../Notes/People/@Person%204.md) to complete handover
 
 ## Context and knowledge
 

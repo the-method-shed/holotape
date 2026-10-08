@@ -1,5 +1,5 @@
 ---
-modified: 2026-10-08T11:11:53+08:00
+modified: 2026-10-08T18:07:04+08:00
 created: 2026-10-05T09:33:17+08:00
 ---
 # Home
@@ -11,6 +11,12 @@ This is a local prototype, not approved team documentation. Open it as an Obsidi
 - **Work on something:** Open [Projects](Projects/_projects.md) to find the project, understand its purpose and context, and follow its links to the repository and issues where implementation work happens.
 - **Explore a question:** Start with [Areas](Maps/Areas.md) for ongoing responsibilities or [Resources](Maps/Resources.md) for reusable references. Follow links into [Notes](Notes/_notes.md) and project pages; a note can connect more than one project.
 - **Capture something unfinished:** Put an idea, source link, or clipping in the [+ inbox](+/_inbox.md) with where it came from and why it may matter. It stays unreviewed until its provenance, sensitivity, and destination are checked with a human.
+
+## How the pages fit together
+
+This page is the starting point for the whole wiki. Pages beginning with `_`, such as [Projects](Projects/_projects.md) and [Notes](Notes/_notes.md), are landing pages for their folders: they explain what belongs there and show what is available. The [inbox](+/_inbox.md) and [archive](Archive/_archive.md) have landing pages too. Their Obsidian views are optional; the pages and Markdown links still work on GitHub.
+
+Pages in `Maps/` are curated routes through a subject or responsibility, linking relevant material wherever it lives. A landing page can also act as a map: *map* describes what a page helps you do, not which folder it is in. Follow links rather than expecting the folder tree to tell the whole story. For a page-by-page catalogue, use the [wiki index](index.md); the [LLM operations log](log.md) records what the agent changed, not a history of team decisions.
 
 ## Find your way back
 

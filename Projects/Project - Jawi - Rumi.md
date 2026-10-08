@@ -5,7 +5,7 @@ aliases: []
 description: Transliteration of Jawi text to Rumi
 author:
 created: 2026-10-08T08:27:53+08:00
-modified: 2026-10-08T08:46:46+08:00
+modified: 2026-10-08T17:21:00+08:00
 leads: []
 team: []
 priority: 2
@@ -31,13 +31,13 @@ urls:
 
 ## Open actions
 
-> **Notion snapshot:** These checkboxes and due dates reproduce the export; verify their current state in GitHub before using them as follow-ups.
+> **Edited Notion snapshot:** Task names below have been replaced with linked people placeholders; wording and due dates come from the export. Check the source and verify current state in GitHub before using these as follow-ups.
 
 *Keep action items visible and updated with the most recent at the top. Move the completed actions into the completed section. Create separate tasks when relevant. Record Who, What, By when, Task (as applicable).*
 
 - [ ]  [Who] — [What] (by [date, if agreed])
-- [x]  @Zé Miguel Vieira Add the  sentences to the dashboard, Jawi, GT, and model answer 8 October 2026
-- [ ]  @Zé Miguel Vieira Add a column to the data table for an annotator to describe the failure mode 8 October 2026
+- [x]  [@Person 1](../Notes/People/@Person%201.md) Add the  sentences to the dashboard, Jawi, GT, and model answer 8 October 2026
+- [ ]  [@Person 1](../Notes/People/@Person%201.md) Add a column to the data table for an annotator to describe the failure mode 8 October 2026
 
 ## Context and knowledge
 

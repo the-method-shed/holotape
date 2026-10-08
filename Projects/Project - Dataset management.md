@@ -6,7 +6,7 @@ aliases: []
 description: Dataset discovery, lineage, versioning, annotation, and reuse
 author:
 created: 2026-10-07T17:13:24+08:00
-modified: 2026-10-08T11:33:17+08:00
+modified: 2026-10-08T17:21:00+08:00
 leads: []
 team: []
 priority: 4
@@ -32,15 +32,15 @@ urls: []
 
 ## Open actions
 
-> **Notion snapshot:** These checkboxes and due dates reproduce the export; verify their current state in GitHub before using them as follow-ups.
+> **Edited Notion snapshot:** Task names below have been replaced with linked people placeholders; wording and due dates come from the export. Check the source and verify current state in GitHub before using these as follow-ups.
 
 *Keep action items visible and updated with the most recent at the top. Move the completed actions into the completed section. Create separate tasks when relevant. Record Who, What, By when, Task (as applicable).*
 
 - [ ]  [Who] — [What] (by [date, if agreed])
-- [x]  @Zé Miguel Vieira will do a local ~~CKAN~~ data portal (and check with Alvin) by 1 October 2026
-- [ ]  @alvin will write user flow specifications by 1 October 2026
-- [ ]  @alvin will share the repo for search
-- [ ]  @Miguel Varela will share the “bengkel” repo
+- [x]  [@Person 1](../Notes/People/@Person%201.md) will do a local ~~CKAN~~ data portal (and check with [@Person 2](../Notes/People/@Person%202.md)) by 1 October 2026
+- [ ]  [@Person 2](../Notes/People/@Person%202.md) will write user flow specifications by 1 October 2026
+- [ ]  [@Person 2](../Notes/People/@Person%202.md) will share the repo for search
+- [ ]  [@Person 3](../Notes/People/@Person%203.md) will share the “bengkel” repo
 
 ## Context and knowledge
 

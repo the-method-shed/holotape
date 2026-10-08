@@ -3,15 +3,16 @@ up: "[[Maps/People|People]]"
 related: []
 aliases: []
 author:
-created: 2026-10-07
-modified: 2026-10-08T17:27:44+08:00
+created: 2026-10-08
+modified: 2026-10-08T17:28:00+08:00
 role:
-tags: []
+tags:
+  - person
 urls: []
 ---
-# @Person 2
+# @Person 4
 
-Profile stub. Professional role not yet confirmed.
+Profile stub for links from project task snapshots. Professional role not yet confirmed.
 
 ## Open tasks
 

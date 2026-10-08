@@ -11,7 +11,7 @@ team: []
 priority:
 status: proposed
 tags:
-  - project
+  - type/project
 urls: []
 ---
 # Project - [Project name]

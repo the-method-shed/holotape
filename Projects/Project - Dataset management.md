@@ -6,7 +6,7 @@ aliases: []
 description: Dataset discovery, lineage, versioning, annotation, and reuse
 author:
 created: 2026-10-07T17:13:24+08:00
-modified: 2026-10-08T11:22:31+08:00
+modified: 2026-10-08T11:33:17+08:00
 leads: []
 team: []
 priority: 4
@@ -36,7 +36,7 @@ urls: []
 
 *Keep action items visible and updated with the most recent at the top. Move the completed actions into the completed section. Create separate tasks when relevant. Record Who, What, By when, Task (as applicable).*
 
-- \[ \]  [Who] — [What] (by [date, if agreed])
+- [ ]  [Who] — [What] (by [date, if agreed])
 - [x]  @Zé Miguel Vieira will do a local ~~CKAN~~ data portal (and check with Alvin) by 1 October 2026
 - [ ]  @alvin will write user flow specifications by 1 October 2026
 - [ ]  @alvin will share the repo for search

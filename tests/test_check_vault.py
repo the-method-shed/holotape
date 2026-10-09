@@ -90,7 +90,12 @@ class VaultCheckTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("OldProjects", result.stdout)
         self.assertIn("type/clip", result.stdout)
-        self.assertIn("OldProjects", result.stdout)
+
+    def test_inbox_item_requires_unreviewed_notice(self):
+        self.put("+/Clip.md", "---\ntags:\n  - type/clip\nurls:\n  - https://example.org\n---\n# Clip\n")
+        result = self.check()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("unreviewed", result.stdout)
 
 
 if __name__ == "__main__":

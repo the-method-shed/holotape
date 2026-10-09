@@ -72,13 +72,15 @@ def check(root):
                 errors.append(f"{name}: invalid status")
         if parts[0] == "+" and page.name != "_inbox.md":
             meta = frontmatter(text)
-            if not re.search(r"(?m)^\s*-\s*type/clip\s*$", meta):
-                errors.append(f"{name}: missing type/clip tag")
             body = text.split("\n---\n", 1)[1] if meta else text
+            is_clip = bool(re.search(r"(?m)^\s*-\s*type/clip\s*$", meta))
+            if re.search(r"(?im)^.*clip\s*[—-]\s*unreviewed", body) and not is_clip:
+                errors.append(f"{name}: missing type/clip tag")
             if not re.search(r"(?i)\bunreviewed\b", body):
                 errors.append(f"{name}: missing unreviewed notice")
-            if not re.search(r"(?m)^\s*-\s*[\"']?https?://\S+", meta):
-                errors.append(f"{name}: missing source URL in frontmatter")
+            has_url = re.search(r"(?m)^\s*-\s*[\"']?https?://\S+", meta)
+            if is_clip and not has_url and not re.search(r"(?m)^## Source\s*$", body):
+                errors.append(f"{name}: clip needs a source URL or citation")
     for base in sorted(root.rglob("*.base")):
         name = base.relative_to(root).as_posix()
         content = base.read_text(encoding="utf-8")

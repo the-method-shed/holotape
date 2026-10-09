@@ -1,5 +1,5 @@
 ---
-up: "[[Project - The Jawi AI Project]]"
+up: "[[../ongoing/Project - The Jawi AI Project]]"
 related: []
 aliases: []
 description: Transliteration of Jawi text to Rumi
@@ -16,7 +16,7 @@ urls:
 ---
 # Project - Jawi - Rumi
 
-> **Imported Notion snapshot for review:** Content below comes from the owner's [“Jawi - Rumi” Notion page](https://app.notion.com/p/Jawi-Rumi-3e39789a0bf88066811bd04d8aa74315?pvs=21), via export. It is not approved team documentation or a live task tracker. `up` links to [The Jawi AI Project](Project%20-%20The%20Jawi%20AI%20Project.md); the Notion status “In progress” has been mapped to the status `active`.
+> **Imported Notion snapshot for review:** Content below comes from the owner's [“Jawi - Rumi” Notion page](https://app.notion.com/p/Jawi-Rumi-3e39789a0bf88066811bd04d8aa74315?pvs=21), via export. It is not approved team documentation or a live task tracker. `up` links to [The Jawi AI Project](../ongoing/Project%20-%20The%20Jawi%20AI%20Project.md); the Notion status “In progress” has been mapped to the status `active`.
 
 ## Purpose and outcome
 
@@ -36,8 +36,8 @@ urls:
 *Keep action items visible and updated with the most recent at the top. Move the completed actions into the completed section. Create separate tasks when relevant. Record Who, What, By when, Task (as applicable).*
 
 - [ ]  [Who] — [What] (by [date, if agreed])
-- [x]  [@Person 1](../Notes/People/@Person%201.md) Add the  sentences to the dashboard, Jawi, GT, and model answer 8 October 2026
-- [ ]  [@Person 1](../Notes/People/@Person%201.md) Add a column to the data table for an annotator to describe the failure mode 8 October 2026
+- [x]  [@Person 1](../../Notes/People/@Person%201.md) Add the  sentences to the dashboard, Jawi, GT, and model answer 8 October 2026
+- [ ]  [@Person 1](../../Notes/People/@Person%201.md) Add a column to the data table for an annotator to describe the failure mode 8 October 2026
 
 ## Context and knowledge
 
@@ -69,7 +69,7 @@ _No decisions from the Notion export have been approved for this wiki. The dated
 - Added a table with the Jawi/Rumi (ground truth)/LLM answer to the dashboard.
 - Differences are highlighted using character diff between the Rumi and LLM answer.
 
-![](../_assets/attachments/file-20261008084624506.png)
+![](../../_assets/attachments/file-20261008084624506.png)
 
 - Ran two more evaluations, one with a prompt to explicitly not expand words ending in a reduplicating numeral, and another with a prompt that contains Jawi - Rumi rules. The no reduplication performed the best so far. 
 

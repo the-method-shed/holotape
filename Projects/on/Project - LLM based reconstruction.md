@@ -1,5 +1,5 @@
 ---
-up: "[[Project - The Jawi AI Project]]"
+up: "[[../ongoing/Project - The Jawi AI Project]]"
 related: []
 aliases: []
 description: Reconstructing Jawi newspaper articles from OCR fragments
@@ -16,7 +16,7 @@ urls:
 ---
 # Project - LLM based reconstruction
 
-> **Imported Notion snapshot for review:** The material below is from the owner's [Notion page](https://app.notion.com/p/LLM-based-reconstruction-3af9789a0bf8801abf0af58cd6fd3719?pvs=21) and is not approved team documentation or a live task tracker. Its Notion priority “High” and status “In progress” have not been mapped to the wiki properties. Four raw OCR/model-completion excerpts were omitted; the six aggregate evaluation screenshots were included. This is a child of [The Jawi AI Project](Project%20-%20The%20Jawi%20AI%20Project.md).
+> **Imported Notion snapshot for review:** The material below is from the owner's [Notion page](https://app.notion.com/p/LLM-based-reconstruction-3af9789a0bf8801abf0af58cd6fd3719?pvs=21) and is not approved team documentation or a live task tracker. Its Notion priority “High” and status “In progress” have not been mapped to the wiki properties. Four raw OCR/model-completion excerpts were omitted; the six aggregate evaluation screenshots were included. This is a child of [The Jawi AI Project](../ongoing/Project%20-%20The%20Jawi%20AI%20Project.md).
 
 ## Purpose and outcome
 
@@ -36,24 +36,24 @@ Develop and evaluate a pipeline to reconstruct newspaper articles from OCR text 
 *Keep action items visible and updated with the most recent at the top. Move the completed actions into the completed section. Create separate tasks when relevant. Record Who, What, By when, Task (as applicable).*
 
 - [ ] [Who] — [What] (by [date, if agreed])
-- [ ]  [@Person 2](../Notes/People/@Person%202.md) will run the pipeline for 1956 in the Schmidt cluster
-- [ ]  [@Person 3](../Notes/People/@Person%203.md) to compile new dataset with additional pages
+- [ ]  [@Person 2](../../Notes/People/@Person%202.md) will run the pipeline for 1956 in the Schmidt cluster
+- [ ]  [@Person 3](../../Notes/People/@Person%203.md) to compile new dataset with additional pages
 - [ ]  ❓@all, How to organize all repos, ongoing
 - Completed
-    - [x]  [@Person 1](../Notes/People/@Person%201.md) calculate agreement (only region ids), and process, [new dataset](https://github.com/culturalheritagenus/ds_article_20260902/)
-    - [x]  [@Person 1](../Notes/People/@Person%201.md) to change the prompt for article titles to be in Malay.
-    - [x]  [@Person 1](../Notes/People/@Person%201.md) to change the implementation to use Transformers
-    - [x]  [@Person 1](../Notes/People/@Person%201.md) and [@Person 2](../Notes/People/@Person%202.md) to explore optimisations for batch inference
-    - [x]  [@Person 1](../Notes/People/@Person%201.md) adapt newspaper reconstructor module to implement the interface ``Module[ArticleReconstructionInput, ArticleReconstructionOutput]``
-    - [x]  [@Person 1](../Notes/People/@Person%201.md) to share inference time per model (and hardware specs)
-    - [x]  [@Person 1](../Notes/People/@Person%201.md) to finish benchmarking by 28 August 2026
-    - [x]  [@Person 3](../Notes/People/@Person%203.md) prompts for [@Person 1](../Notes/People/@Person%201.md), by 24 August 2026
-    - [x]  [@Person 3](../Notes/People/@Person%203.md) give [@Person 1](../Notes/People/@Person%201.md) HuggingFace access
-    - [x]  [@Person 3](../Notes/People/@Person%203.md) to review ground truth data
-    - [x]  [@Person 1](../Notes/People/@Person%201.md) share updated newspaper reconstructor repository
-    - [x]  [@Person 1](../Notes/People/@Person%201.md) add ARI
+    - [x]  [@Person 1](../../Notes/People/@Person%201.md) calculate agreement (only region ids), and process, [new dataset](https://github.com/culturalheritagenus/ds_article_20260902/)
+    - [x]  [@Person 1](../../Notes/People/@Person%201.md) to change the prompt for article titles to be in Malay.
+    - [x]  [@Person 1](../../Notes/People/@Person%201.md) to change the implementation to use Transformers
+    - [x]  [@Person 1](../../Notes/People/@Person%201.md) and [@Person 2](../../Notes/People/@Person%202.md) to explore optimisations for batch inference
+    - [x]  [@Person 1](../../Notes/People/@Person%201.md) adapt newspaper reconstructor module to implement the interface ``Module[ArticleReconstructionInput, ArticleReconstructionOutput]``
+    - [x]  [@Person 1](../../Notes/People/@Person%201.md) to share inference time per model (and hardware specs)
+    - [x]  [@Person 1](../../Notes/People/@Person%201.md) to finish benchmarking by 28 August 2026
+    - [x]  [@Person 3](../../Notes/People/@Person%203.md) prompts for [@Person 1](../../Notes/People/@Person%201.md), by 24 August 2026
+    - [x]  [@Person 3](../../Notes/People/@Person%203.md) give [@Person 1](../../Notes/People/@Person%201.md) HuggingFace access
+    - [x]  [@Person 3](../../Notes/People/@Person%203.md) to review ground truth data
+    - [x]  [@Person 1](../../Notes/People/@Person%201.md) share updated newspaper reconstructor repository
+    - [x]  [@Person 1](../../Notes/People/@Person%201.md) add ARI
     - [x]  Generate format compatible with article-network-visualizer
-    - [x]  [@Person 4](../Notes/People/@Person%204.md) to complete handover
+    - [x]  [@Person 4](../../Notes/People/@Person%204.md) to complete handover
 
 ## Context and knowledge
 
@@ -186,7 +186,7 @@ A control trained on the original unsplit data with the same 8,192-token context
 
 Added and evaluated six article-reconstruction baseline methods. Geometry performed best, but remains substantially below the LLM results.
 
-![Screenshot 2026-09-16 at 10-27-36 Evaluation Dashboard — Jawi Newspaper Reconstruction.png](../_assets/attachments/llm-reconstruction-2026-09-16-1027.png)
+![Screenshot 2026-09-16 at 10-27-36 Evaluation Dashboard — Jawi Newspaper Reconstruction.png](../../_assets/attachments/llm-reconstruction-2026-09-16-1027.png)
 
 > [!note] Notion note
 > Used the older,  `ds-filteredUM1956alto` dataset because its raw module-format OCR contains the full region coordinates needed by the geometry baselines.
@@ -338,13 +338,13 @@ I have also introduced a `--max-tokens` parameter to stop the model from repeati
     *Raw OCR/model-completion excerpt omitted from wiki; see original Notion export for source data.*
     
 
-![Screenshot 2026-08-28 at 18.15.14.png](../_assets/attachments/llm-reconstruction-2026-08-28-1815.png)
+![Screenshot 2026-08-28 at 18.15.14.png](../../_assets/attachments/llm-reconstruction-2026-08-28-1815.png)
 
 ### 27 August 2026
 
 Re-running the experiment using the full dataset against `aisingapore/Qwen-SEA-LION-v4.5-27B-IT`. It burned through the remaining credits in Inference Endpoints. Only prompt `v01.01` was able to finish the processing.
 
-![Screenshot 2026-08-28 at 10-15-40 Evaluation Dashboard — Jawi Newspaper Reconstruction.png](../_assets/attachments/llm-reconstruction-2026-08-28-1015.png)
+![Screenshot 2026-08-28 at 10-15-40 Evaluation Dashboard — Jawi Newspaper Reconstruction.png](../../_assets/attachments/llm-reconstruction-2026-08-28-1015.png)
 
 ### 26 August 2026
 
@@ -354,7 +354,7 @@ Running experiments against Unsloth’s `Gemma` again, but with reasoning enable
 - [`unsloth/DeepSeek-V4-Flash-0731-GGUF`](https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF), with three reasoning modes, no reasoning, `high`, and `max`. No reasoning didn't produce great results, above The Gemma SEA-LION models, for prompt `v01.01`. I stopped the experiments with reasoning modes, because they were taking too long and requests kept timing out.
 - `unsloth/GLM-4.7-Flash-GGUF`, testing with both no reasoning and reasoning modes, but it seems to be very slow. Stopped the reasoning runs because it's extremely slow, similar to the `DeepSeek` model. The results were not great either and performed worse than `DeepSeek`.
     
-    ![Screenshot 2026-08-26 at 17-02-29 Evaluation Dashboard — Jawi Newspaper Reconstruction.png](../_assets/attachments/llm-reconstruction-2026-08-26-1702.png)
+    ![Screenshot 2026-08-26 at 17-02-29 Evaluation Dashboard — Jawi Newspaper Reconstruction.png](../../_assets/attachments/llm-reconstruction-2026-08-26-1702.png)
     
 
 > [!note] Notion note
@@ -369,7 +369,7 @@ Running experiments against [`Qwen 3.8 27B`](https://huggingface.co/Qwen/Qwen3.8
 - The low-thinking variant, `arc:lite`, is the current best performer across the board, suggesting light reasoning might be ideal for this task, while excessive chain-of-thought may lead to over-complication. The no-thinking variant, `arc:nano`, trailed behind, confirming that some reasoning capabilities are advantageous.
 - Interestingly, the ability to reason flips the prompt preference. The reasoning models (`lite` and `nexus`) achieved their best results using the simpler `v05` prompt, likely because it allowed them to structure their own logical grouping without being constrained. On the other side, the non-reasoning model (`nano`) suffered a performance drop when using `v05` and heavily relied on the more detailed instructions in `v01.01.01`.
     
-    ![Screenshot 2026-08-25 at 16-34-25 Evaluation Dashboard — Jawi Newspaper Reconstruction.png](../_assets/attachments/llm-reconstruction-2026-08-25-1634.png)
+    ![Screenshot 2026-08-25 at 16-34-25 Evaluation Dashboard — Jawi Newspaper Reconstruction.png](../../_assets/attachments/llm-reconstruction-2026-08-25-1634.png)
     
 
 ### 24 August 2026
@@ -388,7 +388,7 @@ Running experiments against [`Qwen 3.8 27B`](https://huggingface.co/Qwen/Qwen3.8
 | [aisingapore/Gemma-SEA-LION-v4-27B-IT](https://huggingface.co/aisingapore/Gemma-SEA-LION-v4-27B-IT) | [https://endpoints.huggingface.co/culturalheritagenus/endpoints/gemma-sea-lion-v4-27b-it-gct](https://endpoints.huggingface.co/culturalheritagenus/endpoints/gemma-sea-lion-v4-27b-it-gct) |
 - Ran two [experiments](https://github.com/jmiguelv/newspaper-reconstructor/blob/870b3a15f09f253a196bb49b01a969edde20e180/experiments/hf_without_classification_20260824.sh) agains each of the models in the table above, one using @Miguel Varela’s prompt ([v05](https://github.com/jmiguelv/newspaper-reconstructor/blob/main/prompts/v05.md)), the other using a previously tuned prompt ([v01.01](https://github.com/jmiguelv/newspaper-reconstructor/blob/main/prompts/v00.01.md)). `Qwen-SEA-LION` was the best performing one, followed by Unsloth’s `Gemma`. The `Gemma-SEA-LION` models were both quite bad in comparison.
     
-    ![Screenshot 2026-08-24 at 17.00.15.png](../_assets/attachments/llm-reconstruction-2026-08-24-1700.png)
+    ![Screenshot 2026-08-24 at 17.00.15.png](../../_assets/attachments/llm-reconstruction-2026-08-24-1700.png)
     
 - Regarding the prompts, the previously tuned `v01.01` produced better results compared to v05. The drop in performance was relatively minor for the top two models, but using v05 caused a complete performance collapse for both of the `Gemma-SEA-LION` models. If we look at `B³F1`, however, it's a different story: `v05` paired with Unsloth's `Gemma` actually achieved the highest score out of all runs.
 

@@ -4,7 +4,7 @@ related: []
 aliases: []
 author:
 created: 2026-10-08
-modified: 2026-10-09T10:11:08+08:00
+modified: 2026-10-09T10:22:09+08:00
 tags: []
 urls: []
 ---
@@ -27,10 +27,10 @@ A content catalogue of individual wiki pages and clips, updated on each ingest a
 
 ## Projects
 
-- [Dataset management](Projects/Project%20-%20Dataset%20management.md) — dataset discovery, lineage, and reuse; imported Notion snapshot awaiting review.
-- [Jawi - Rumi](Projects/Project%20-%20Jawi%20-%20Rumi.md) — transliteration work; imported Notion snapshot awaiting review.
-- [LLM based reconstruction](Projects/Project%20-%20LLM%20based%20reconstruction.md) — reconstruction of Jawi newspaper articles; imported Notion snapshot awaiting review.
-- [The Jawi AI Project](Projects/Project%20-%20The%20Jawi%20AI%20Project.md) — umbrella page for AI tools for Malay-language historical sources; project details still need review.
+- [Dataset management](Projects/on/Project%20-%20Dataset%20management.md) — dataset discovery, lineage, and reuse; imported Notion snapshot awaiting review.
+- [Jawi - Rumi](Projects/on/Project%20-%20Jawi%20-%20Rumi.md) — transliteration work; imported Notion snapshot awaiting review.
+- [LLM based reconstruction](Projects/on/Project%20-%20LLM%20based%20reconstruction.md) — reconstruction of Jawi newspaper articles; imported Notion snapshot awaiting review.
+- [The Jawi AI Project](Projects/ongoing/Project%20-%20The%20Jawi%20AI%20Project.md) — umbrella page for AI tools for Malay-language historical sources; project details still need review.
 
 ## Unreviewed sources
 

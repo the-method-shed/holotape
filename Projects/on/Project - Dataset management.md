@@ -1,7 +1,7 @@
 ---
 up: "[[_projects]]"
 related:
-  - "[[Project - The Jawi AI Project]]"
+  - "[[../ongoing/Project - The Jawi AI Project]]"
 aliases: []
 description: Dataset discovery, lineage, versioning, annotation, and reuse
 author:
@@ -37,10 +37,10 @@ urls: []
 *Keep action items visible and updated with the most recent at the top. Move the completed actions into the completed section. Create separate tasks when relevant. Record Who, What, By when, Task (as applicable).*
 
 - [ ]  [Who] — [What] (by [date, if agreed])
-- [x]  [@Person 1](../Notes/People/@Person%201.md) will do a local ~~CKAN~~ data portal (and check with [@Person 2](../Notes/People/@Person%202.md)) by 1 October 2026
-- [ ]  [@Person 2](../Notes/People/@Person%202.md) will write user flow specifications by 1 October 2026
-- [ ]  [@Person 2](../Notes/People/@Person%202.md) will share the repo for search
-- [ ]  [@Person 3](../Notes/People/@Person%203.md) will share the “bengkel” repo
+- [x]  [@Person 1](../../Notes/People/@Person%201.md) will do a local ~~CKAN~~ data portal (and check with [@Person 2](../../Notes/People/@Person%202.md)) by 1 October 2026
+- [ ]  [@Person 2](../../Notes/People/@Person%202.md) will write user flow specifications by 1 October 2026
+- [ ]  [@Person 2](../../Notes/People/@Person%202.md) will share the repo for search
+- [ ]  [@Person 3](../../Notes/People/@Person%203.md) will share the “bengkel” repo
 
 ## Context and knowledge
 

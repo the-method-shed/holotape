@@ -1,7 +1,7 @@
 ---
 up: "[[Projects/_projects|Projects]]"
 related:
-  - "[[Project - Dataset management]]"
+  - "[[on/Project - Dataset management]]"
 aliases: []
 description: AI tools for Malay-language historical sources
 author:

@@ -31,3 +31,8 @@ Append a brief entry after an LLM operation changes the wiki. Record what change
 
 - Documented the [LLM Wiki adaptation](HOME.md) in the [agent guide](AGENTS.md); updated the [index](index.md) and [clipping workflow](.agents/skills/holotape-clip/SKILL.md) to list individual unreviewed clips on ingest, including the existing [Unsloth clip](+/Train%20your%20own%20Decision%20Model%20with%20Unsloth.md).
 - Review: the workflow remains a local prototype. Indexing a source does not approve its claims, rights, relevance, or destination.
+
+## [2026-10-09] maintain | simplify maps navigation
+
+- Added [Maps](Maps/Maps.md) as the guide and map entry point; updated [Home](HOME.md), the [index](index.md), [agent guide](AGENTS.md), [notes landing page](Notes/_notes.md), [metadata conventions](Notes/Metadata%20conventions.md), and [tag guide](Maps/Tags.md) to point to it instead of the empty [Areas placeholder](Maps/Areas.md).
+- Review: `Areas.md` is an inactive pointer kept at its original path because external inbound links have not been verified. The map guidance remains part of the local prototype.

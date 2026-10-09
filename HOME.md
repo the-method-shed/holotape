@@ -1,5 +1,5 @@
 ---
-modified: 2026-10-09T09:38:01+08:00
+modified: 2026-10-09T10:10:55+08:00
 created: 2026-10-05T09:33:17+08:00
 ---
 # Home
@@ -9,14 +9,14 @@ This is a local prototype, not approved team documentation. It is set up for the
 ## Where do you want to start?
 
 - **Work on something:** Open [Projects](Projects/_projects.md) to find the project, understand its purpose and context, and follow its links to the repository and issues where implementation work happens.
-- **Explore a question:** Start with [Areas](Maps/Areas.md) for ongoing responsibilities or [Resources](Maps/Resources.md) for reusable references. Follow links into [Notes](Notes/_notes.md) and project pages; a note can connect more than one project.
+- **Explore a question:** Start with [Maps](Maps/Maps.md) to follow a curated route through a subject, or [Resources](Maps/Resources.md) for reusable references. Follow links into [Notes](Notes/_notes.md) and project pages; a note can connect more than one project.
 - **Capture something unfinished:** Put an idea, source link, or clipping in the [+ inbox](+/_inbox.md) with where it came from and why it may matter. It stays unreviewed until its provenance, sensitivity, and destination are checked with a human.
 
 ## How the pages fit together
 
 This page is the starting point for the whole wiki. Pages beginning with `_`, such as [Projects](Projects/_projects.md) and [Notes](Notes/_notes.md), are landing pages for their folders: they explain what belongs there and show what is available. The [inbox](+/_inbox.md) and [archive](Archive/_archive.md) have landing pages too. Their Obsidian views are optional; the pages and Markdown links still work on GitHub.
 
-Pages in `Maps/` are curated routes through a subject or responsibility, linking relevant material wherever it lives. A landing page can also act as a map: *map* describes what a page helps you do, not which folder it is in. Follow links rather than expecting the folder tree to tell the whole story. For a page-by-page catalogue, including individual unreviewed clips, use the [wiki index](index.md); it is updated on each ingest. The [LLM operations log](log.md) records what the agent changed, not a history of team decisions. Indexing a clip makes it discoverable, not approved.
+[Maps](Maps/Maps.md) explains how to gather, develop, and navigate connections between pages. Maps are curated routes through a subject or responsibility, not required categories or folders. A landing page can also act as a map: *map* describes what a page helps you do, not which folder it is in. Follow links rather than expecting the folder tree to tell the whole story. For a page-by-page catalogue, including individual unreviewed clips, use the [wiki index](index.md); it is updated on each ingest. The [LLM operations log](log.md) records what the agent changed, not a history of team decisions. Indexing a clip makes it discoverable, not approved.
 
 ## Find your way back
 

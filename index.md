@@ -4,7 +4,7 @@ related: []
 aliases: []
 author:
 created: 2026-10-08
-modified: 2026-10-09T09:38:16+08:00
+modified: 2026-10-09T10:11:08+08:00
 tags: []
 urls: []
 ---
@@ -16,7 +16,8 @@ A content catalogue of individual wiki pages and clips, updated on each ingest a
 
 - [Home](HOME.md) — where to start, capture, and find context.
 - [Projects](Projects/_projects.md) — project landing page with Obsidian views for browsing projects and tasks.
-- [Areas](Maps/Areas.md) — ongoing responsibilities; no areas recorded yet.
+- [Maps](Maps/Maps.md) — how to use curated maps and where to start.
+- [Areas (inactive)](Maps/Areas.md) — former empty placeholder retained for old links; use Maps instead.
 - [Resources](Maps/Resources.md) — reusable references and draft wiki guidance.
 - [People](Maps/People.md) — links to the professional profile stubs.
 - [Tags](Maps/Tags.md) — proposed tag vocabulary and usage guidance, not approved team policy.

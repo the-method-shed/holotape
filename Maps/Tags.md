@@ -17,7 +17,7 @@ This is a **proposed navigation guide**, not approved team policy. Map links and
 
 Use one `type/*` tag for a page's primary role, even when its folder also indicates that role. This deliberate exception keeps type searches consistent if pages move. The map, project, and person templates supply their defaults; the clipping skill adds `type/clip` when using the base template. Existing project and people pages have not been retagged as part of this draft.
 
-- `type/map` — navigation pages such as [Areas](Areas.md), [Resources](Resources.md), and [People](People.md). Use the [map template](../_assets/templates/tpl%20-%20Map.md).
+- `type/map` — navigation pages such as [Maps](Maps.md), [Resources](Resources.md), and [People](People.md). Use the [map template](../_assets/templates/tpl%20-%20Map.md).
 - `type/project` — an effort with a defined outcome, including an umbrella project that links to subprojects. Use the [project template](../_assets/templates/tpl%20-%20Project.md).
 - `type/person` — an individual profile, not a map of people. Use the [person template](../_assets/templates/tpl%20-%20Person.md).
 - `type/clip` — a captured source in the unreviewed [inbox](../+/_inbox.md), created with the [clipping skill](../.agents/skills/holotape-clip/SKILL.md) and base template. The tag says what kind of page it is, not that its claims are approved.

@@ -6,7 +6,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 
-LINK = re.compile(r"(?<!!)\[[^]\n]+\]\(([^)]+)\)")
+LINK = re.compile(r"\[[^]\n]+\]\(([^)]+)\)")
 BASE_PATH = re.compile(r'file\.(folder|path)\s*(?:==|!=)\s*["\']([^"\']+)["\']|file\.inFolder\(["\']([^"\']+)["\']\)')
 INTENSITIES = {"on", "ongoing", "simmering", "sleeping"}
 STATUSES = {"proposed", "planning", "ready", "active", "complete", "paused"}
@@ -58,9 +58,9 @@ def check(root):
         for link in markdown_links(text):
             target = local_target(root, page, link)
             if target is not None and not target.is_relative_to(root):
-                errors.append(f"{name}: link outside vault: {link}")
+                errors.append(f"{name}: link outside vault: {urlsplit(link).path}")
             elif target is not None and not target.exists():
-                errors.append(f"{name}: broken link: {link}")
+                errors.append(f"{name}: broken link: {urlsplit(link).path}")
         parts = page.relative_to(root).parts
         if parts[0] in {"Atlas", "Projects", "+"} and name != "+/_inbox.md" and page.resolve() not in indexed:
             errors.append(f"{name}: missing from index.md")
@@ -74,7 +74,8 @@ def check(root):
             meta = frontmatter(text)
             if not re.search(r"(?m)^\s*-\s*type/clip\s*$", meta):
                 errors.append(f"{name}: missing type/clip tag")
-            if not re.search(r"(?i)\bunreviewed\b", text[len(meta):]):
+            body = text.split("\n---\n", 1)[1] if meta else text
+            if not re.search(r"(?i)\bunreviewed\b", body):
                 errors.append(f"{name}: missing unreviewed notice")
             if not re.search(r"(?m)^\s*-\s*[\"']?https?://\S+", meta):
                 errors.append(f"{name}: missing source URL in frontmatter")

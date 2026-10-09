@@ -41,6 +41,18 @@ class VaultCheckTests(unittest.TestCase):
         self.assertIn("gone.md", result.stdout)
         self.assertIn("Atlas/Maps/Extra.md: missing from index.md", result.stdout)
 
+    def test_missing_markdown_image_fails(self):
+        self.put("Atlas/Maps/Map.md", "![Chart](../../missing.png)\n")
+        result = self.check()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("missing.png", result.stdout)
+
+    def test_broken_link_does_not_echo_query_tokens(self):
+        self.put("Atlas/Maps/Map.md", "[Missing](../../gone.md?token=secret-value)\n")
+        result = self.check()
+        self.assertIn("gone.md", result.stdout)
+        self.assertNotIn("secret-value", result.stdout)
+
     def test_link_outside_vault_fails(self):
         self.put("Atlas/Maps/Map.md", "[Outside](../../../outside.md)\n")
         result = self.check()
@@ -60,14 +72,25 @@ class VaultCheckTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("empty project view", result.stdout)
 
+    def test_unreviewed_idea_does_not_require_clip_metadata(self):
+        self.put("index.md", self.root.joinpath("index.md").read_text() + "- [Idea](+/Idea.md)\n")
+        self.put("+/Idea.md", "# Idea\nUnreviewed thought to revisit.\n")
+        result = self.check()
+        self.assertEqual(result.returncode, 0, result.stdout)
+
+    def test_citation_only_clip_needs_no_url(self):
+        self.put("+/Clip.md", "---\ntags:\n  - type/clip\nurls: []\n---\n# Clip\nClip — unreviewed.\n## Source\nBook, 2026.\n")
+        result = self.check()
+        self.assertEqual(result.returncode, 0, result.stdout)
+
     def test_stale_base_filter_and_unreviewed_clip_fail(self):
         self.put("Projects/_projects.base", 'filters:\n  and:\n    - file.folder == "OldProjects"\n')
-        self.put("+/Clip.md", "---\ntags: []\nurls: []\n---\n# Clip\n")
+        self.put("+/Clip.md", "---\ntags: []\nurls: []\n---\n# Clip\nClip — unreviewed.\n")
         result = self.check()
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("OldProjects", result.stdout)
         self.assertIn("type/clip", result.stdout)
-        self.assertIn("unreviewed", result.stdout)
+        self.assertIn("OldProjects", result.stdout)
 
 
 if __name__ == "__main__":

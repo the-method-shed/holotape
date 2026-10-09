@@ -6,7 +6,7 @@ aliases: []
 description: AI tools for Malay-language historical sources
 author:
 created: 2026-10-07T17:01:30+08:00
-modified: 2026-10-08T09:31:38+08:00
+modified: 2026-10-09T08:42:48+08:00
 leads: []
 team: []
 priority: 3
@@ -27,7 +27,7 @@ To work on AI tools for Malay-language historical sources, initially focusing on
 
 - Website: [jawi.budaya.sg](https://jawi.budaya.sg/)
 - Repository: not yet confirmed; the site links to a [GitHub organization](https://github.com/Computational-Cultural-Heritage-NUS), not a specific repository.
-- Issues: not yet confirmed.
+- Issues: https://github.com/orgs/culturalheritagenus/projects/4
 
 ## Open actions
 

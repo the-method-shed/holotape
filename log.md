@@ -16,3 +16,8 @@ Append a brief entry after an LLM operation changes the wiki. Record what change
 
 - Reframed the [agent guide](AGENTS.md) around source capture, reviewed integration, answering, and maintenance; added the [content index](index.md) and linked both entry points from [Home](HOME.md).
 - Review: this workflow and the catalogue remain part of the local prototype; no team decisions or content have been approved by this entry.
+
+## [2026-10-08] maintain | add clipping workflow
+
+- Added the [clip-to-obsidian skill](.agents/skills/clip-to-obsidian/SKILL.md), linked it from the [agent guide](AGENTS.md) and [index](index.md), and documented its `type/clip` tag in the [tag guide](Maps/Tags.md).
+- Review: the clipping workflow and tag remain proposed guidance; no source was imported or approved.

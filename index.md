@@ -39,5 +39,6 @@ A concise catalogue of pages, not a source of evidence or a replacement for the 
 ## Operations
 
 - [Agent guide](AGENTS.md) — how LLMs capture, integrate, answer, and maintain this wiki.
+- [Clipping skill](.agents/skills/clip-to-obsidian/SKILL.md) — turn a requested source into an attributed, unreviewed Obsidian note in `+/`.
 - [LLM operations log](log.md) — dated record of LLM-made wiki changes, not a session transcript.
 - [License scope](LICENSE.md) — which material may be reused under the repository's license.

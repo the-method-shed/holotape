@@ -1,8 +1,8 @@
 filters:
   and:
-    - file.folder == "Notes"
+    - file.folder == "Atlas/Notes"
     - file.ext == "md"
-    - file.path != "Notes/_notes.md"
+    - file.path != "Atlas/Notes/_notes.md"
 views:
   - type: table
     name: Recent notes

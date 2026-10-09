@@ -22,11 +22,11 @@ Use one `type/*` tag for a page's primary role, even when its folder also indica
 - `type/person` — an individual profile, not a map of people. Use the [person template](../../_assets/templates/tpl%20-%20Person.md).
 - `type/clip` — a captured source in the unreviewed [inbox](../../+/_inbox.md), created with the [clipping skill](../../.agents/skills/holotape-clip/SKILL.md) and base template. The tag says what kind of page it is, not that its claims are approved.
 
-For example, [People](People.md) is `type/map` only; individual pages under `Notes/People/` use `type/person`. Do not add `type/people` to describe the map's subject.
+For example, [People](People.md) is `type/map` only; individual pages under `Atlas/Notes/People/` use `type/person`. Do not add `type/people` to describe the map's subject.
 
 ## Before adding another tag
 
-- Ask what view the new tag would make possible. For a relationship between pages, use links; for project lifecycle, use the `status` property; for unreviewed material, use the inbox. Do not create `status/*` tags or a tag for each project or person.
+- Ask what view the new tag would make possible. For a relationship between pages, use links; for project intensity, use the folder under `Projects/`; for lifecycle, use the `status` property; for unreviewed material, use the inbox. Do not create `status/*` tags or a tag for each project or person.
 - A cross-cutting `on/<theme>` tag may be useful when several reviewed pages across contexts need the same view. Propose the specific name and example pages for human review here before using it; do not pre-create a topic tree.
 - Keep the hierarchy shallow (`/` separates levels). Obsidian's [nested tags](https://help.obsidian.md/tags#Nested%20tags) can be searched by parent. Even when a page has a tag, link it from a relevant map so GitHub readers can find it without plugins.
 

@@ -18,7 +18,7 @@ Have an unfinished thought or clipping? Capture it in the [+ inbox](../../+/_inb
 
 The [people map](../Maps/People.md) links to the profile stubs; [metadata conventions](Metadata%20conventions.md) documents draft page fields.
 
-The view lists the 10 newest notes directly in `Notes/` by file creation time; pages in `Notes/People/` are not included.
+The view lists the newest notes directly in `Atlas/Notes/` by file creation time; pages in `Atlas/Notes/People/` are not included.
 
 ![[_notes.base]]
 

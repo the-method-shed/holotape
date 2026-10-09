@@ -3,17 +3,20 @@ filters:
     - file.folder == "+"
     - file.ext == "md"
     - file.path != "+/_inbox.md"
+formulas:
+  days_in_inbox: '(now() - file.ctime).days'
+properties:
+  formula.days_in_inbox:
+    displayName: Days in inbox
 views:
   - type: table
     name: Recent inbox items
     order:
       - file.name
-      - author
+      - formula.days_in_inbox
       - file.tags
-      - file.mtime
+      - file.ctime
     sort:
-      - property: file.mtime
-        direction: DESC
       - property: file.ctime
         direction: DESC
     limit: 10

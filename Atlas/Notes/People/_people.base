@@ -4,7 +4,7 @@ views:
     filters:
       and:
         - file.name.startsWith("@")
-        - file.folder == "Notes/People"
+        - file.folder == "Atlas/Notes/People"
     order:
       - file.name
       - role

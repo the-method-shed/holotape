@@ -15,15 +15,13 @@ A content catalogue of individual wiki pages and clips, updated on each ingest a
 ## Start and navigate
 
 - [Home](HOME.md) — where to start, capture, and find context.
-- [Projects](Projects/_projects.md) — project landing page with Obsidian views for browsing projects and tasks.
+- [Projects](Projects/_projects.md) — project landing page organized by intensity, with views for browsing projects and tasks.
 - [Maps](Atlas/Maps/Maps.md) — how to use curated maps and where to start.
-- [Areas (inactive)](Maps/Areas.md) — former empty placeholder retained for old links; use Maps instead.
 - [Resources](Atlas/Maps/Resources.md) — reusable references and draft wiki guidance.
 - [People](Atlas/Maps/People.md) — links to the professional profile stubs.
 - [Tags](Atlas/Maps/Tags.md) — proposed tag vocabulary and usage guidance, not approved team policy.
 - [Notes](Atlas/Notes/_notes.md) — landing page for durable cross-project notes.
-- [Inbox](+/_inbox.md) — entry point for captured material awaiting review.
-- [Archive](Archive/_archive.md) — entry point for inactive material.
+- [Inbox](+/_inbox.md) — a cooling-off space for captured material awaiting review.
 
 ## Projects
 

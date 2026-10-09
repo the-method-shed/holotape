@@ -1,5 +1,5 @@
 ---
-modified: 2026-10-09T10:23:22+08:00
+modified: 2026-10-09T10:43:50+08:00
 created: 2026-10-05T09:33:17+08:00
 ---
 # Home
@@ -14,7 +14,7 @@ This is a local prototype, not approved team documentation. It is set up for the
 
 ## How the pages fit together
 
-This page is the starting point for the whole wiki. Pages beginning with `_`, such as [Projects](Projects/_projects.md) and [Notes](Atlas/Notes/_notes.md), are landing pages for their folders: they explain what belongs there and show what is available. The [inbox](+/_inbox.md) and [archive](Archive/_archive.md) have landing pages too. Their Obsidian views are optional; the pages and Markdown links still work on GitHub.
+This page is the starting point for the whole wiki. Pages beginning with `_`, such as [Projects](Projects/_projects.md) and [Notes](Atlas/Notes/_notes.md), are landing pages for their folders: they explain what belongs there and show what is available. The [inbox](+/_inbox.md) has a landing page too. Its Obsidian view is optional; the page and Markdown links still work on GitHub.
 
 [Maps](Atlas/Maps/Maps.md) explains how to gather, develop, and navigate connections between pages. Maps are curated routes through a subject or responsibility, not required categories or folders. A landing page can also act as a map: *map* describes what a page helps you do, not which folder it is in. Follow links rather than expecting the folder tree to tell the whole story. For a page-by-page catalogue, including individual unreviewed clips, use the [wiki index](index.md); it is updated on each ingest. The [LLM operations log](log.md) records what the agent changed, not a history of team decisions. Indexing a clip makes it discoverable, not approved.
 
@@ -22,7 +22,7 @@ This page is the starting point for the whole wiki. Pages beginning with `_`, su
 
 - [People](Atlas/Maps/People.md) links the minimal profiles used by project pages.
 - [Tags](Atlas/Maps/Tags.md) describes the draft tag guidance; map links remain the main routes through the wiki.
-- [Archive](Archive/_archive.md) holds inactive material where moving it will not break external links.
+- [Projects](Projects/_projects.md) groups work by current intensity: on, ongoing, simmering, or sleeping. Sleeping includes cold or finished work; there is no separate archive.
 
 ## From capture to shared context
 

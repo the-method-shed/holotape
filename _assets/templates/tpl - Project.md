@@ -18,7 +18,7 @@ urls: []
 
 > **Draft template:** Replace placeholders and obtain review before presenting this page as current team knowledge.
 >
-> **Project status:** Set `status` to `proposed` (default), `planning`, `ready`, `active`, or `complete`. Use `paused` while work is on hold, then replace it with the appropriate status when work resumes.
+> **Intensity and status:** Place the page under `Projects/on/`, `ongoing/`, `simmering/`, or `sleeping/` according to current attention. Separately set the lifecycle `status` to `proposed` (default), `planning`, `ready`, `active`, or `complete`; use `paused` while work is on hold. Do not infer one from the other.
 >
 > **Project priority:** Set `priority` to 1–5 for current relative urgency across projects: **5 is most urgent, 1 is least urgent**. Leave it empty if not yet assessed, and update it as priorities change.
 
@@ -41,7 +41,7 @@ urls: []
 
 ## Context and knowledge
 
-[Links to the lead and team people pages, relevant notes, areas, resources, and source material. Separate verified facts from hypotheses. Use relative Markdown links in the body so they work on GitHub.]
+[Links to the lead and team people pages, relevant maps, notes, and sources. Separate verified facts from hypotheses. Use relative Markdown links in the body so they work on GitHub.]
 
 > [!info]- Child projects
 > ```base

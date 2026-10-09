@@ -16,7 +16,7 @@ class VaultCheckTests(unittest.TestCase):
         self.put("index.md", "- [Map](Atlas/Maps/Map.md)\n- [Project](Projects/on/Project%20-%20One.md)\n- [Clip](+/Clip.md)\n")
         self.put("Atlas/Maps/Map.md", "# Map\n[Project](../../Projects/on/Project%20-%20One.md)\n")
         self.put("Projects/on/Project - One.md", "---\nstatus: active\n---\n# Project - One\n")
-        self.put("+/Clip.md", "---\ntags:\n  - type/clip\nurls:\n  - https://example.org/article\n---\n# Clip\nClip — unreviewed.\n")
+        self.put("+/Clip.md", "---\ntags:\n  - type/clip\nurls:\n  - \"https://example.org/article\"\n---\n# Clip\nClip — unreviewed.\n")
         self.put('Projects/_projects.base', 'filters:\n  and:\n    - file.inFolder("Projects")\n')
 
     def put(self, path, text):
@@ -40,6 +40,12 @@ class VaultCheckTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn("gone.md", result.stdout)
         self.assertIn("Atlas/Maps/Extra.md: missing from index.md", result.stdout)
+
+    def test_link_outside_vault_fails(self):
+        self.put("Atlas/Maps/Map.md", "[Outside](../../../outside.md)\n")
+        result = self.check()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("outside vault", result.stdout)
 
     def test_invalid_project_folder_and_status_fail(self):
         self.put("Projects/other/Project - Two.md", "---\nstatus: unknown\n---\n# Project - Two\n")

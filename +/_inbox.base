@@ -10,9 +10,12 @@ views:
       - file.name
       - author
       - file.tags
-      - file.ctime
       - file.mtime
     sort:
+      - property: file.mtime
+        direction: DESC
       - property: file.ctime
         direction: DESC
     limit: 10
+    columnSize:
+      file.ctime: 180

@@ -4,10 +4,10 @@ related: []
 aliases: []
 author:
 created: 2026-10-08
-modified: 2026-10-08T17:28:00+08:00
+modified: 2026-10-09T08:48:26+08:00
 role:
 tags:
-  - person
+  - type/person
 urls: []
 ---
 # @Person 4

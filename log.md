@@ -19,7 +19,7 @@ Append a brief entry after an LLM operation changes the wiki. Record what change
 
 ## [2026-10-08] maintain | add clipping workflow
 
-- Added the [clip-to-obsidian skill](.agents/skills/holotape-clip/SKILL.md), linked it from the [agent guide](AGENTS.md) and [index](index.md), and documented its `type/clip` tag in the [tag guide](Maps/Tags.md).
+- Added the [clip-to-obsidian skill](.agents/skills/holotape-clip/SKILL.md), linked it from the [agent guide](AGENTS.md) and [index](index.md), and documented its `type/clip` tag in the [tag guide](Atlas/Maps/Tags.md).
 - Review: the clipping workflow and tag remain proposed guidance; no source was imported or approved.
 
 ## [2026-10-09] clip | Unsloth decision-model guide
@@ -34,5 +34,5 @@ Append a brief entry after an LLM operation changes the wiki. Record what change
 
 ## [2026-10-09] maintain | simplify maps navigation
 
-- Added [Maps](Maps/Maps.md) as the guide and map entry point; updated [Home](HOME.md), the [index](index.md), [agent guide](AGENTS.md), [notes landing page](Notes/_notes.md), [metadata conventions](Notes/Metadata%20conventions.md), and [tag guide](Maps/Tags.md) to point to it instead of the empty [Areas placeholder](Maps/Areas.md).
+- Added [Maps](Atlas/Maps/Maps.md) as the guide and map entry point; updated [Home](HOME.md), the [index](index.md), [agent guide](AGENTS.md), [notes landing page](Atlas/Notes/_notes.md), [metadata conventions](Atlas/Notes/Metadata%20conventions.md), and [tag guide](Atlas/Maps/Tags.md) to point to it instead of the empty [Areas placeholder](Maps/Areas.md).
 - Review: `Areas.md` is an inactive pointer kept at its original path because external inbound links have not been verified. The map guidance remains part of the local prototype.

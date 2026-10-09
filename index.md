@@ -4,7 +4,7 @@ related: []
 aliases: []
 author:
 created: 2026-10-08
-modified: 2026-10-09T10:22:09+08:00
+modified: 2026-10-09T10:23:22+08:00
 tags: []
 urls: []
 ---
@@ -16,12 +16,12 @@ A content catalogue of individual wiki pages and clips, updated on each ingest a
 
 - [Home](HOME.md) — where to start, capture, and find context.
 - [Projects](Projects/_projects.md) — project landing page with Obsidian views for browsing projects and tasks.
-- [Maps](Maps/Maps.md) — how to use curated maps and where to start.
+- [Maps](Atlas/Maps/Maps.md) — how to use curated maps and where to start.
 - [Areas (inactive)](Maps/Areas.md) — former empty placeholder retained for old links; use Maps instead.
-- [Resources](Maps/Resources.md) — reusable references and draft wiki guidance.
-- [People](Maps/People.md) — links to the professional profile stubs.
-- [Tags](Maps/Tags.md) — proposed tag vocabulary and usage guidance, not approved team policy.
-- [Notes](Notes/_notes.md) — landing page for durable cross-project notes.
+- [Resources](Atlas/Maps/Resources.md) — reusable references and draft wiki guidance.
+- [People](Atlas/Maps/People.md) — links to the professional profile stubs.
+- [Tags](Atlas/Maps/Tags.md) — proposed tag vocabulary and usage guidance, not approved team policy.
+- [Notes](Atlas/Notes/_notes.md) — landing page for durable cross-project notes.
 - [Inbox](+/_inbox.md) — entry point for captured material awaiting review.
 - [Archive](Archive/_archive.md) — entry point for inactive material.
 
@@ -38,11 +38,11 @@ A content catalogue of individual wiki pages and clips, updated on each ingest a
 
 ## Reference and people
 
-- [Metadata conventions](Notes/Metadata%20conventions.md) — proposed page properties and templates, not approved team policy.
-- [@Person 1](Notes/People/@Person%201.md) — profile stub; professional role unconfirmed.
-- [@Person 2](Notes/People/@Person%202.md) — profile stub; professional role unconfirmed.
-- [@Person 3](Notes/People/@Person%203.md) — profile stub; professional role unconfirmed.
-- [@Person 4](Notes/People/@Person%204.md) — profile stub; professional role unconfirmed.
+- [Metadata conventions](Atlas/Notes/Metadata%20conventions.md) — proposed page properties and templates, not approved team policy.
+- [@Person 1](Atlas/Notes/People/@Person%201.md) — profile stub; professional role unconfirmed.
+- [@Person 2](Atlas/Notes/People/@Person%202.md) — profile stub; professional role unconfirmed.
+- [@Person 3](Atlas/Notes/People/@Person%203.md) — profile stub; professional role unconfirmed.
+- [@Person 4](Atlas/Notes/People/@Person%204.md) — profile stub; professional role unconfirmed.
 
 ## Operations
 

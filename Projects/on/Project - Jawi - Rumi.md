@@ -36,8 +36,8 @@ urls:
 *Keep action items visible and updated with the most recent at the top. Move the completed actions into the completed section. Create separate tasks when relevant. Record Who, What, By when, Task (as applicable).*
 
 - [ ]  [Who] — [What] (by [date, if agreed])
-- [x]  [@Person 1](../../Notes/People/@Person%201.md) Add the  sentences to the dashboard, Jawi, GT, and model answer 8 October 2026
-- [ ]  [@Person 1](../../Notes/People/@Person%201.md) Add a column to the data table for an annotator to describe the failure mode 8 October 2026
+- [x]  [@Person 1](../../Atlas/Notes/People/@Person%201.md) Add the  sentences to the dashboard, Jawi, GT, and model answer 8 October 2026
+- [ ]  [@Person 1](../../Atlas/Notes/People/@Person%201.md) Add a column to the data table for an annotator to describe the failure mode 8 October 2026
 
 ## Context and knowledge
 

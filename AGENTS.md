@@ -11,10 +11,10 @@ Build a persistent, linked understanding of the team's work, not just a collecti
 ## The layers
 
 - **Sources:** User-provided material and linked external systems remain the evidence. Record where a claim came from; do not silently turn a clipping or LLM synthesis into a decision. Capture requested material in `+/` while its provenance, rights, sensitivity, and destination are reviewed.
-- **Wiki:** `HOME.md` (also exposed as `README.md`) is the human entry point. `index.md` catalogues individual content pages, including unreviewed clips in `+/`, with a link, one-line description, and review status. [Maps](Maps/Maps.md) explains how to use curated routes through them; folder landing pages can also act as maps. `Projects/` gives context and links to repositories and issues; `Notes/` holds reusable knowledge; `Archive/` holds inactive material.
+- **Wiki:** `HOME.md` (also exposed as `README.md`) is the human entry point. `index.md` catalogues individual content pages, including unreviewed clips in `+/`, with a link, one-line description, and review status. [Maps](Atlas/Maps/Maps.md) explains how to use curated routes through them; folder landing pages can also act as maps. `Projects/` gives context and links to repositories and issues; `Notes/` holds reusable knowledge; `Archive/` holds inactive material.
 - **Instructions and history:** This file describes how agents maintain the wiki. `log.md` records completed LLM operations, not the content of a conversation or a second task tracker.
 
-A map is a way to navigate, not a folder requirement. Use relative Markdown links for vault pages (readable on GitHub and in Obsidian) and full URLs for external systems. Obsidian views and small, reviewed tags may supplement links; see [the draft tag guide](Maps/Tags.md). Do not invent a folder or tag hierarchy to file a single note.
+A map is a way to navigate, not a folder requirement. Use relative Markdown links for vault pages (readable on GitHub and in Obsidian) and full URLs for external systems. Obsidian views and small, reviewed tags may supplement links; see [the draft tag guide](Atlas/Maps/Tags.md). Do not invent a folder or tag hierarchy to file a single note.
 
 ## Work with the wiki
 
@@ -24,7 +24,7 @@ A map is a way to navigate, not a folder requirement. Use relative Markdown link
 4. **Answer and explore:** Search the wiki, follow links to the supporting sources, and answer with citations and explicit uncertainty. When a useful synthesis should persist, offer to capture or file it for review rather than leaving it only in chat.
 5. **Maintain:** On request, check for stale or conflicting claims, missing sources, broken links, and orphan pages; propose repairs instead of inventing project state or approvals. Before moving or renaming a page, check inbound links, especially external GitHub issue links. Leave externally linked pages at stable paths and mark them inactive when appropriate.
 
-Name project files `Projects/Project - Project name.md` with `# Project - Project name` headings. Start at [Maps](Maps/Maps.md) for navigation; add focused maps only when reviewed pages need a route through a subject or ongoing responsibility. Use [Resources](Maps/Resources.md) for reusable references. Project pages may hold lightweight coordination follow-ups, but do not duplicate GitHub issue state in the wiki.
+Name project files `Projects/Project - Project name.md` with `# Project - Project name` headings. Start at [Maps](Atlas/Maps/Maps.md) for navigation; add focused maps only when reviewed pages need a route through a subject or ongoing responsibility. Use [Resources](Atlas/Maps/Resources.md) for reusable references. Project pages may hold lightweight coordination follow-ups, but do not duplicate GitHub issue state in the wiki.
 
 ## Keep navigation and history useful
 

@@ -22,7 +22,7 @@ Come here when you need to understand an effort with a defined outcome, includin
 
 ## Add a project
 
-If an effort needs its own entry page, start from the [project template](../_assets/templates/tpl%20-%20Project.md). Name the file `Project - Project name.md` and use `# Project - Project name` as its heading. Link it from a relevant map or parent project. See the [draft metadata conventions](../Notes/Metadata%20conventions.md) for project status values and people links. Keep only non-issue coordination follow-ups in its open-actions list; track implementation work in GitHub issues.
+If an effort needs its own entry page, start from the [project template](../_assets/templates/tpl%20-%20Project.md). Name the file `Project - Project name.md` and use `# Project - Project name` as its heading. Link it from a relevant map or parent project. See the [draft metadata conventions](../Atlas/Notes/Metadata%20conventions.md) for project status values and people links. Keep only non-issue coordination follow-ups in its open-actions list; track implementation work in GitHub issues.
 
 The Obsidian view below lists project pages, including paused and completed ones. It does not list their checkboxes.
 

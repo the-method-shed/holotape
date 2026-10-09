@@ -1,5 +1,5 @@
 ---
-up: "[[Maps/Resources|Resources]]"
+up: "[[../Maps/Resources|Resources]]"
 related: []
 aliases: []
 author:

@@ -1,5 +1,5 @@
 ---
-up: "[[Maps/People|People]]"
+up: "[[../../Maps/People|People]]"
 related: []
 aliases: []
 author:

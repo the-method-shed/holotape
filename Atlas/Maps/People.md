@@ -13,6 +13,6 @@ urls: []
 
 These are profile stubs for linking from project metadata, not a directory of personal details. Roles are not yet confirmed.
 
-![[Notes/People/_people.base]]
+![[../Notes/People/_people.base]]
 
 On GitHub, [browse the people folder](../Notes/People/).

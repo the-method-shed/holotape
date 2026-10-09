@@ -6,7 +6,7 @@ aliases: []
 description: Dataset discovery, lineage, versioning, annotation, and reuse
 author:
 created: 2026-10-07T17:13:24+08:00
-modified: 2026-10-09T08:44:25+08:00
+modified: 2026-10-09T08:45:08+08:00
 leads: []
 team: []
 priority: 4
@@ -27,7 +27,7 @@ urls: []
 *Do not duplicate issue assignments or issue status here. The project `status` property describes the project as a whole.*
 
 - [Data portal repository](https://github.com/the-method-shed/data-portal)
-- [Template repository for datasets](https://github.com/nus-dh/tpl-dataset)
+- [Dataset template repository](https://github.com/the-method-shed/tpl-dataset)
 - Issues: no specific issue link in the Notion export.
 
 ## Open actions

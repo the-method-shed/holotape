@@ -5,9 +5,10 @@ import re
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
-
 LINK = re.compile(r"\[[^]\n]+\]\(([^)]+)\)")
-BASE_PATH = re.compile(r'file\.(folder|path)\s*(?:==|!=)\s*["\']([^"\']+)["\']|file\.inFolder\(["\']([^"\']+)["\']\)')
+BASE_PATH = re.compile(
+    r'file\.(folder|path)\s*(?:==|!=)\s*["\']([^"\']+)["\']|file\.inFolder\(["\']([^"\']+)["\']\)'
+)
 INTENSITIES = {"on", "ongoing", "simmering", "sleeping"}
 STATUSES = {"proposed", "planning", "ready", "active", "complete", "paused"}
 
@@ -47,9 +48,15 @@ def check(root):
     index = root / "index.md"
     if not index.is_file():
         return ["index.md: missing"]
-    indexed = {local_target(root, index, link) for link in markdown_links(index.read_text(encoding="utf-8"))}
+    indexed = {
+        local_target(root, index, link)
+        for link in markdown_links(index.read_text(encoding="utf-8"))
+    }
     for page in sorted(root.rglob("*.md")):
-        if any(part in {".git", ".obsidian", ".agents", "_assets", "tests"} for part in page.relative_to(root).parts):
+        if any(
+            part in {".git", ".obsidian", ".agents", "_assets", "tests"}
+            for part in page.relative_to(root).parts
+        ):
             continue
         if page.is_symlink():
             continue
@@ -62,7 +69,11 @@ def check(root):
             elif target is not None and not target.exists():
                 errors.append(f"{name}: broken link: {urlsplit(link).path}")
         parts = page.relative_to(root).parts
-        if parts[0] in {"Atlas", "Projects", "+"} and name != "+/_inbox.md" and page.resolve() not in indexed:
+        if (
+            parts[0] in {"Atlas", "Projects", "+"}
+            and name != "+/_inbox.md"
+            and page.resolve() not in indexed
+        ):
             errors.append(f"{name}: missing from index.md")
         if parts[0] == "Projects" and page.name.startswith("Project - "):
             if len(parts) != 3 or parts[1] not in INTENSITIES:
@@ -84,11 +95,20 @@ def check(root):
     for base in sorted(root.rglob("*.base")):
         name = base.relative_to(root).as_posix()
         content = base.read_text(encoding="utf-8")
-        if (name == "Projects/_projects.base" and 'file.folder == "Projects"' in content
-                and not list((root / "Projects").glob("Project - *.md"))):
-            errors.append(f"{name}: empty project view: filter excludes intensity subfolders")
+        if (
+            name == "Projects/_projects.base"
+            and 'file.folder == "Projects"' in content
+            and not list((root / "Projects").glob("Project - *.md"))
+        ):
+            errors.append(
+                f"{name}: empty project view: filter excludes intensity subfolders"
+            )
         for match in BASE_PATH.finditer(content):
-            kind, path = ("folder", match.group(3)) if match.group(3) else (match.group(1), match.group(2))
+            kind, path = (
+                ("folder", match.group(3))
+                if match.group(3)
+                else (match.group(1), match.group(2))
+            )
             target = root / path
             if not (target.is_file() if kind == "path" else target.is_dir()):
                 errors.append(f"{name}: stale {kind} filter: {path}")
@@ -97,7 +117,9 @@ def check(root):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("vault", type=Path, nargs="?", default=Path(__file__).resolve().parents[4])
+    parser.add_argument(
+        "vault", type=Path, nargs="?", default=Path(__file__).resolve().parents[4]
+    )
     args = parser.parse_args()
     if not args.vault.is_dir():
         parser.error(f"not a directory: {args.vault}")

@@ -1,5 +1,5 @@
 ---
-modified: 2026-10-09T11:44:48+08:00
+modified: 2026-10-09T12:13:48+08:00
 created: 2026-10-05T09:33:17+08:00
 ---
 # Home
@@ -30,7 +30,7 @@ When material is ready for review, connect it to the relevant project or map, or
 
 ## Check the vault
 
-Obsidian Linter formats individual notes. After changing pages or paths, run `python3 scripts/check_vault.py` at the vault root to check links, index coverage, project and clip conventions, and Bases folder references. The [vault-check skill](.agents/skills/holotape-check/SKILL.md) explains how agents use the command. It does not validate all YAML or replace checking views in Obsidian.
+Obsidian Linter formats individual notes. After changing pages or paths, run `python3 .agents/skills/holotape-check/scripts/check_vault.py` at the vault root to check links, index coverage, project and clip conventions, and Bases folder references. The [vault-check skill](.agents/skills/holotape-check/SKILL.md) explains how agents use the command. It does not validate all YAML or replace checking views in Obsidian.
 
 ## License
 

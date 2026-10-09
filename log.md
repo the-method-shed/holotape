@@ -45,5 +45,10 @@ Append a brief entry after an LLM operation changes the wiki. Record what change
 
 ## [2026-10-09] maintain | add vault-wide checks
 
-- Added the local [vault checker](scripts/check_vault.py), its [tests](tests/test_check_vault.py), and the [vault-check skill](.agents/skills/holotape-check/SKILL.md). Linked the check from [Home](HOME.md), [agent guide](AGENTS.md), and [index](index.md).
+- Added the local [vault checker](.agents/skills/holotape-check/scripts/check_vault.py), its [tests](.agents/skills/holotape-check/tests/test_check_vault.py), and the [vault-check skill](.agents/skills/holotape-check/SKILL.md). Linked the check from [Home](HOME.md), [agent guide](AGENTS.md), and [index](index.md).
 - Review: this is a prototype convention check, not a Markdown formatter or complete YAML/Obsidian runtime validator.
+
+## [2026-10-09] maintain | bundle vault checker with its skill
+
+- Moved the [checker](.agents/skills/holotape-check/scripts/check_vault.py) and its [tests](.agents/skills/holotape-check/tests/test_check_vault.py) under the [vault-check skill](.agents/skills/holotape-check/SKILL.md); updated [Home](HOME.md), the [agent guide](AGENTS.md), and the [index](index.md) with the new command path.
+- Review: the skill still uses the same prototype checks and does not replace Obsidian Linter or runtime validation.

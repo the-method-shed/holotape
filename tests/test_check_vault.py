@@ -54,6 +54,12 @@ class VaultCheckTests(unittest.TestCase):
         self.assertIn("unsupported intensity", result.stdout)
         self.assertIn("invalid status", result.stdout)
 
+    def test_project_view_cannot_filter_only_root_folder(self):
+        self.put("Projects/_projects.base", 'filters:\n  and:\n    - file.folder == "Projects"\n    - file.basename.startsWith("Project - ")\n')
+        result = self.check()
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("empty project view", result.stdout)
+
     def test_stale_base_filter_and_unreviewed_clip_fail(self):
         self.put("Projects/_projects.base", 'filters:\n  and:\n    - file.folder == "OldProjects"\n')
         self.put("+/Clip.md", "---\ntags: []\nurls: []\n---\n# Clip\n")

@@ -1,5 +1,5 @@
 ---
-modified: 2026-10-09T10:43:50+08:00
+modified: 2026-10-09T11:44:48+08:00
 created: 2026-10-05T09:33:17+08:00
 ---
 # Home
@@ -27,6 +27,10 @@ This page is the starting point for the whole wiki. Pages beginning with `_`, su
 ## From capture to shared context
 
 When material is ready for review, connect it to the relevant project or map, or make a durable note and link it from there. Attribute substantive claims to their sources and keep proposals distinct from agreed decisions. This is a local prototype, not approved team documentation; only a human can approve team decisions or standards. Project pages give context and may hold non-issue follow-ups, but GitHub issues own implementation task state.
+
+## Check the vault
+
+Obsidian Linter formats individual notes. After changing pages or paths, run `python3 scripts/check_vault.py` at the vault root to check links, index coverage, project and clip conventions, and Bases folder references. The [vault-check skill](.agents/skills/holotape-check/SKILL.md) explains how agents use the command. It does not validate all YAML or replace checking views in Obsidian.
 
 ## License
 

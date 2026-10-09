@@ -46,5 +46,6 @@ A content catalogue of individual wiki pages and clips, updated on each ingest a
 
 - [Agent guide](AGENTS.md) — how LLMs capture, integrate, answer, and maintain this wiki.
 - [Clipping skill](.agents/skills/holotape-clip/SKILL.md) — turn a requested source into an attributed, unreviewed Obsidian note in `+/`.
+- [Vault-check skill](.agents/skills/holotape-check/SKILL.md) — run the [vault-wide check](scripts/check_vault.py) after ingest or structural changes; does not format Markdown.
 - [LLM operations log](log.md) — dated record of LLM-made wiki changes, not a session transcript.
 - [License scope](LICENSE.md) — which material may be reused under the repository's license.

@@ -80,7 +80,11 @@ def check(root):
                 errors.append(f"{name}: missing source URL in frontmatter")
     for base in sorted(root.rglob("*.base")):
         name = base.relative_to(root).as_posix()
-        for match in BASE_PATH.finditer(base.read_text(encoding="utf-8")):
+        content = base.read_text(encoding="utf-8")
+        if (name == "Projects/_projects.base" and 'file.folder == "Projects"' in content
+                and not list((root / "Projects").glob("Project - *.md"))):
+            errors.append(f"{name}: empty project view: filter excludes intensity subfolders")
+        for match in BASE_PATH.finditer(content):
             kind, path = ("folder", match.group(3)) if match.group(3) else (match.group(1), match.group(2))
             target = root / path
             if not (target.is_file() if kind == "path" else target.is_dir()):

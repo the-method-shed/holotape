@@ -42,3 +42,8 @@ Append a brief entry after an LLM operation changes the wiki. Record what change
 - Updated [Home](HOME.md), the [agent guide](AGENTS.md), [index](index.md), [license scope](LICENSE.md), [project landing page](Projects/_projects.md), [project template](_assets/templates/tpl%20-%20Project.md), [metadata conventions](Atlas/Notes/Metadata%20conventions.md), [tag guide](Atlas/Maps/Tags.md), [notes landing page](Atlas/Notes/_notes.md), and project/notes/people views for the Atlas layout and four project intensities. Removed the empty Add placeholder from `Atlas/Maps/`.
 - Adapted the cooling-off workflow from Ideaverse Lite 1.5's Add page into the [inbox](+/_inbox.md) and added an age column to its [view](+/_inbox.base). No personal-vault text or attachments were imported.
 - Review: the intensity folders describe attention, not approved lifecycle state; existing project `status` and `priority` values were left unchanged. The guidance is still a prototype.
+
+## [2026-10-09] maintain | add vault-wide checks
+
+- Added the local [vault checker](scripts/check_vault.py), its [tests](tests/test_check_vault.py), and the [vault-check skill](.agents/skills/holotape-check/SKILL.md). Linked the check from [Home](HOME.md), [agent guide](AGENTS.md), and [index](index.md).
+- Review: this is a prototype convention check, not a Markdown formatter or complete YAML/Obsidian runtime validator.

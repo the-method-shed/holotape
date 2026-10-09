@@ -19,7 +19,7 @@ Append a brief entry after an LLM operation changes the wiki. Record what change
 
 ## [2026-10-08] maintain | add clipping workflow
 
-- Added the [clip-to-obsidian skill](.agents/skills/clip-to-obsidian/SKILL.md), linked it from the [agent guide](AGENTS.md) and [index](index.md), and documented its `type/clip` tag in the [tag guide](Maps/Tags.md).
+- Added the [clip-to-obsidian skill](.agents/skills/holotape-clip/SKILL.md), linked it from the [agent guide](AGENTS.md) and [index](index.md), and documented its `type/clip` tag in the [tag guide](Maps/Tags.md).
 - Review: the clipping workflow and tag remain proposed guidance; no source was imported or approved.
 
 ## [2026-10-09] clip | Unsloth decision-model guide

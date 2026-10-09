@@ -20,7 +20,7 @@ Use one `type/*` tag for a page's primary role, even when its folder also indica
 - `type/map` — navigation pages such as [Areas](Areas.md), [Resources](Resources.md), and [People](People.md). Use the [map template](../_assets/templates/tpl%20-%20Map.md).
 - `type/project` — an effort with a defined outcome, including an umbrella project that links to subprojects. Use the [project template](../_assets/templates/tpl%20-%20Project.md).
 - `type/person` — an individual profile, not a map of people. Use the [person template](../_assets/templates/tpl%20-%20Person.md).
-- `type/clip` — a captured source in the unreviewed [inbox](../+/_inbox.md), created with the [clipping skill](../.agents/skills/clip-to-obsidian/SKILL.md) and base template. The tag says what kind of page it is, not that its claims are approved.
+- `type/clip` — a captured source in the unreviewed [inbox](../+/_inbox.md), created with the [clipping skill](../.agents/skills/holotape-clip/SKILL.md) and base template. The tag says what kind of page it is, not that its claims are approved.
 
 For example, [People](People.md) is `type/map` only; individual pages under `Notes/People/` use `type/person`. Do not add `type/people` to describe the map's subject.
 

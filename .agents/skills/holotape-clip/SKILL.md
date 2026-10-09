@@ -1,8 +1,9 @@
 ---
-name: clip-to-obsidian
+name: holotape:clip
 description: Capture a user-requested webpage, article, document, citation, or pasted source as an unreviewed Obsidian Markdown clip in this wiki's +/ inbox. Use whenever the user asks to clip, save, or capture source material into the vault; fill the base template's verified metadata, add a short attributed summary, and mark the note as a clip. Do not use for a request to merely discuss or summarize a source in chat.
+modified: 2026-10-09T08:59:16+08:00
+created: 2026-10-09T07:43:24+08:00
 ---
-
 # Clip to Obsidian
 
 Create a **source record awaiting review**, not an approved team note. A user's request to clip authorizes capture into `+/`; it does not approve the source's claims or its promotion into `Notes/` or `Projects/`.

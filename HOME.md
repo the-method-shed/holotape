@@ -1,10 +1,10 @@
 ---
-modified: 2026-10-09T09:23:31+08:00
+modified: 2026-10-09T09:38:01+08:00
 created: 2026-10-05T09:33:17+08:00
 ---
 # Home
 
-This is a local prototype, not approved team documentation. Open it as an Obsidian vault or follow the Markdown links on GitHub.
+This is a local prototype, not approved team documentation. It is set up for the [LLM Wiki pattern](https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/ac46de1ad27f92b28ac95459c782c07f6b8c964a/llm-wiki.md): an agent maintains linked Markdown pages, a content index, and an operations log as material is captured and reviewed. Open it as an Obsidian vault or follow the Markdown links on GitHub.
 
 ## Where do you want to start?
 
@@ -16,7 +16,7 @@ This is a local prototype, not approved team documentation. Open it as an Obsidi
 
 This page is the starting point for the whole wiki. Pages beginning with `_`, such as [Projects](Projects/_projects.md) and [Notes](Notes/_notes.md), are landing pages for their folders: they explain what belongs there and show what is available. The [inbox](+/_inbox.md) and [archive](Archive/_archive.md) have landing pages too. Their Obsidian views are optional; the pages and Markdown links still work on GitHub.
 
-Pages in `Maps/` are curated routes through a subject or responsibility, linking relevant material wherever it lives. A landing page can also act as a map: *map* describes what a page helps you do, not which folder it is in. Follow links rather than expecting the folder tree to tell the whole story. For a page-by-page catalogue, use the [wiki index](index.md); the [LLM operations log](log.md) records what the agent changed, not a history of team decisions.
+Pages in `Maps/` are curated routes through a subject or responsibility, linking relevant material wherever it lives. A landing page can also act as a map: *map* describes what a page helps you do, not which folder it is in. Follow links rather than expecting the folder tree to tell the whole story. For a page-by-page catalogue, including individual unreviewed clips, use the [wiki index](index.md); it is updated on each ingest. The [LLM operations log](log.md) records what the agent changed, not a history of team decisions. Indexing a clip makes it discoverable, not approved.
 
 ## Find your way back
 

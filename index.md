@@ -4,13 +4,13 @@ related: []
 aliases: []
 author:
 created: 2026-10-08
-modified: 2026-10-08T18:06:00+08:00
+modified: 2026-10-09T09:38:16+08:00
 tags: []
 urls: []
 ---
 # Wiki index
 
-A concise catalogue of pages, not a source of evidence or a replacement for the curated maps. Follow a link and check the page's sources and review status before relying on a claim. Unreviewed inbox items are not listed individually here.
+A content catalogue of individual wiki pages and clips, updated on each ingest and when pages change. Each entry links to its page with a short description; review status is noted where relevant. This is not a source of evidence or a replacement for the curated maps. Follow a link and check the page's sources and review status before relying on a claim. An indexed clip is discoverable, not approved.
 
 ## Start and navigate
 
@@ -31,10 +31,17 @@ A concise catalogue of pages, not a source of evidence or a replacement for the 
 - [LLM based reconstruction](Projects/Project%20-%20LLM%20based%20reconstruction.md) — reconstruction of Jawi newspaper articles; imported Notion snapshot awaiting review.
 - [The Jawi AI Project](Projects/Project%20-%20The%20Jawi%20AI%20Project.md) — umbrella page for AI tools for Malay-language historical sources; project details still need review.
 
+## Unreviewed sources
+
+- [Train your own Decision Model with Unsloth](+/Train%20your%20own%20Decision%20Model%20with%20Unsloth.md) — unreviewed link-only clip summarizing Unsloth's decision-model training guide; relevance and source claims need review.
+
 ## Reference and people
 
 - [Metadata conventions](Notes/Metadata%20conventions.md) — proposed page properties and templates, not approved team policy.
-- [@Person 1](Notes/People/@Person%201.md), [@Person 2](Notes/People/@Person%202.md), [@Person 3](Notes/People/@Person%203.md), [@Person 4](Notes/People/@Person%204.md) — profile stubs; professional roles unconfirmed.
+- [@Person 1](Notes/People/@Person%201.md) — profile stub; professional role unconfirmed.
+- [@Person 2](Notes/People/@Person%202.md) — profile stub; professional role unconfirmed.
+- [@Person 3](Notes/People/@Person%203.md) — profile stub; professional role unconfirmed.
+- [@Person 4](Notes/People/@Person%204.md) — profile stub; professional role unconfirmed.
 
 ## Operations
 

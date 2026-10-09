@@ -26,3 +26,8 @@ Append a brief entry after an LLM operation changes the wiki. Record what change
 
 - Captured an attributed, link-only [clip](+/Train%20your%20own%20Decision%20Model%20with%20Unsloth.md) with original summary in the inbox; no source text, code, or images copied.
 - Review: verify source claims, reuse rights, relevance, and destination before integrating it into durable pages.
+
+## [2026-10-09] maintain | align index with LLM Wiki pattern
+
+- Documented the [LLM Wiki adaptation](HOME.md) in the [agent guide](AGENTS.md); updated the [index](index.md) and [clipping workflow](.agents/skills/holotape-clip/SKILL.md) to list individual unreviewed clips on ingest, including the existing [Unsloth clip](+/Train%20your%20own%20Decision%20Model%20with%20Unsloth.md).
+- Review: the workflow remains a local prototype. Indexing a source does not approve its claims, rights, relevance, or destination.

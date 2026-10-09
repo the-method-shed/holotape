@@ -1,6 +1,6 @@
 filters:
   and:
-    - file.folder == "Projects"
+    - file.inFolder("Projects")
     - file.ext == "md"
     - file.basename.startsWith("Project - ")
 views:

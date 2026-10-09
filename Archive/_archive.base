@@ -13,3 +13,5 @@ views:
       - property: file.ctime
         direction: DESC
     limit: 10
+    columnSize:
+      file.name: 415

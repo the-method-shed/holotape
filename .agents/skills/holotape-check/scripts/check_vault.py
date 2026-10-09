@@ -97,7 +97,7 @@ def check(root):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("vault", type=Path, nargs="?", default=Path(__file__).resolve().parents[1])
+    parser.add_argument("vault", type=Path, nargs="?", default=Path(__file__).resolve().parents[4])
     args = parser.parse_args()
     if not args.vault.is_dir():
         parser.error(f"not a directory: {args.vault}")
